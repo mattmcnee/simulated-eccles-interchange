@@ -1,6 +1,6 @@
 import os
 import argparse
-from generateVehicles import generate_random_vehicles  # Import the function
+from utils import generate_random_vehicles, create_config_file, run_sumo_simulation, plot_results
 
 def main():
     parser = argparse.ArgumentParser(description="Generate random vehicles for simulations")
@@ -27,6 +27,15 @@ def main():
 
         # Call the imported function to generate random vehicles
         generate_random_vehicles(output_file, num_vehicles)
+
+        # Create the configuration file for the simulation
+        config_file = create_config_file(num_vehicles, args.net_file, output_dir)
+
+        run_sumo_simulation(config_file)
+
+        plot_results("data/trip_")
+
+
 
 if __name__ == '__main__':
     main()

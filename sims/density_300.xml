@@ -1,903 +1,903 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <vehicle id="m60-worsley_125" depart="1.01">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_15" depart="1.02">
-        <route edges="E7 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_244" depart="1.11">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m60-worsley_21" depart="1.14">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m60-north_63" depart="1.15">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_140" depart="1.25">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_180" depart="1.3">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_214" depart="1.74">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_211" depart="1.83">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_262" depart="1.87">
-        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_226" depart="1.98">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_147" depart="2.19">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_152" depart="2.28">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m602-m60_270" depart="2.79">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_31" depart="2.88">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_198" depart="3.05">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_142" depart="3.7">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_121" depart="4.39">
+    <vehicle id="m60-north_238" depart="1.19">
         <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m62-m60-b_103" depart="5.06">
-        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_124" depart="5.27">
-        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_165" depart="5.54">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_299" depart="6.55">
-        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_200" depart="6.9">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_268" depart="6.97">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_112" depart="7.27">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_55" depart="7.35">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m602-m60_96" depart="7.71">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_17" depart="8.15">
-        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_77" depart="8.27">
-        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_87" depart="9.36">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_292" depart="9.89">
-        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_273" depart="10.03">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_250" depart="11.06">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m60-north_120" depart="11.1">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_203" depart="11.35">
+    <vehicle id="m60-north_256" depart="1.25">
         <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m602-m60_245" depart="11.54">
-        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_169" depart="11.85">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_61" depart="12.6">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_194" depart="13.12">
-        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_274" depart="13.15">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_106" depart="13.33">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_50" depart="13.84">
+    <vehicle id="m62-m60-b_294" depart="1.71">
         <route edges="E7 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-north_265" depart="15.21">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_94" depart="15.33">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_283" depart="15.49">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m60-north_201" depart="15.58">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_282" depart="16.14">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_33" depart="16.22">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m602-m60_293" depart="16.45">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_70" depart="16.8">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m60-north_52" depart="16.85">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_229" depart="16.86">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_29" depart="16.87">
-        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_3" depart="17.87">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_67" depart="19.22">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_224" depart="19.44">
-        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_4" depart="20.1">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_74" depart="20.25">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_170" depart="20.83">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_139" depart="21.16">
+    <vehicle id="m602-m60_72" depart="1.96">
         <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m602-m60_237" depart="21.38">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_14" depart="21.52">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_166" depart="22.69">
-        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_9" depart="22.95">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_107" depart="23.02">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_187" depart="23.35">
-        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_89" depart="23.55">
-        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_233" depart="23.6">
-        <route edges="E7 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_65" depart="23.84">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_208" depart="25.02">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_278" depart="25.05">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_5" depart="25.3">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m60-worsley_12" depart="25.34">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m60-north_230" depart="25.42">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_153" depart="25.63">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_257" depart="25.63">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_122" depart="25.89">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_69" depart="26.27">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_75" depart="27.24">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m602-m60_251" depart="27.45">
-        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_81" depart="28.17">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_267" depart="28.2">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_79" depart="28.27">
+    <vehicle id="m62-m60-a_49" depart="2.04">
         <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-north_119" depart="29.24">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    <vehicle id="m60-north_116" depart="3.24">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-north_149" depart="29.34">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_102" depart="29.84">
-        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_234" depart="30.34">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_110" depart="31.19">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_167" depart="31.25">
-        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_145" depart="31.34">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_48" depart="32.54">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_38" depart="33.01">
-        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_206" depart="33.34">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_40" depart="33.58">
-        <route edges="E7 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_104" depart="33.59">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_239" depart="34.13">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m602-m60_144" depart="35.21">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_258" depart="36.01">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m602-m60_210" depart="36.18">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_83" depart="36.42">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_264" depart="36.42">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_225" depart="37.05">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_97" depart="37.13">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_109" depart="37.28">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_158" depart="37.43">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_199" depart="37.47">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_255" depart="37.73">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_20" depart="37.9">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_49" depart="38.42">
+    <vehicle id="m62-m60-a_52" depart="3.52">
         <route edges="E7 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-north_88" depart="38.44">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_115" depart="38.66">
-        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_266" depart="38.73">
-        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_260" depart="39.33">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_240" depart="39.47">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_243" depart="39.64">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_254" depart="39.85">
-        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_247" depart="40.22">
+    <vehicle id="m602-m60_230" depart="3.96">
         <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m602-m60_197" depart="40.28">
-        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_134" depart="40.68">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_86" depart="41.04">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_241" depart="41.65">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_99" depart="41.83">
-        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_173" depart="42.06">
-        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_238" depart="42.15">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_164" depart="42.34">
-        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_213" depart="42.39">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m602-m60_56" depart="42.51">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_1" depart="42.69">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_252" depart="43.09">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_215" depart="43.12">
-        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_235" depart="43.15">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_159" depart="44.12">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_188" depart="44.3">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_37" depart="44.43">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_42" depart="44.5">
+    <vehicle id="m62-m60-b_50" depart="3.99">
         <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-worsley_73" depart="44.57">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_236" depart="44.82">
-        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_57" depart="45.73">
-        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_263" depart="45.9">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_195" depart="46.06">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_171" depart="46.41">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_129" depart="47.1">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_59" depart="47.47">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_138" depart="47.56">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_212" depart="47.6">
+    <vehicle id="m60-north_179" depart="4.08">
         <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m602-m60_2" depart="48.24">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    <vehicle id="m60-north_242" depart="4.11">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-north_22" depart="48.34">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_141" depart="49.93">
+    <vehicle id="m62-m60-b_214" depart="4.73">
         <route edges="E7 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m62-m60-b_289" depart="50.33">
-        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    <vehicle id="m62-m60-a_183" depart="4.86">
+        <route edges="E7 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m602-m60_157" depart="50.4">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    <vehicle id="m60-north_194" depart="5.13">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m602-m60_6" depart="50.41">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_98" depart="50.95">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_111" depart="51.49">
-        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_35" depart="51.59">
+    <vehicle id="m60-north_55" depart="5.32">
         <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-worsley_242" depart="51.76">
+    <vehicle id="m60-north_65" depart="5.67">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_5" depart="6.02">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_291" depart="6.42">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_111" depart="6.67">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_177" depart="6.77">
+        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_253" depart="6.85">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_119" depart="6.92">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_68" depart="7.53">
+        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_269" depart="7.67">
+        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_110" depart="8.4">
+        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_284" depart="8.63">
+        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_247" depart="8.65">
+        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_250" depart="9.31">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_233" depart="10.01">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_140" depart="10.37">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_209" depart="10.55">
         <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
     </vehicle>
-    <vehicle id="m62-m60-b_300" depart="51.76">
-        <route edges="E7 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    <vehicle id="m60-worsley_141" depart="10.89">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
     </vehicle>
-    <vehicle id="m602-m60_92" depart="52.33">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_276" depart="52.39">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_131" depart="52.59">
-        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_78" depart="53.58">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_41" depart="54.16">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_43" depart="55.45">
-        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_91" depart="56.04">
-        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_62" depart="56.19">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_68" depart="56.4">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_186" depart="56.87">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m60-worsley_220" depart="56.88">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_7" depart="57.36">
-        <route edges="E7 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_10" depart="57.67">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_281" depart="57.68">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_183" depart="58.03">
-        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_279" depart="58.4">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_116" depart="59.3">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_146" depart="59.77">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m60-north_297" depart="60.04">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_16" depart="60.24">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_223" depart="60.64">
-        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_298" depart="61.0">
-        <route edges="E7 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_204" depart="61.27">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_261" depart="62.08">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_93" depart="62.66">
-        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_72" depart="63.42">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_161" depart="63.93">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_196" depart="63.93">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_156" depart="64.79">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_18" depart="65.28">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_82" depart="65.65">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_272" depart="66.42">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_53" depart="67.06">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_253" depart="68.19">
-        <route edges="E7 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_193" depart="68.66">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_190" depart="69.15">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_191" depart="69.82">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_231" depart="69.9">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_126" depart="70.32">
-        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_185" depart="70.47">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_34" depart="70.56">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_136" depart="70.72">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m602-m60_27" depart="70.85">
+    <vehicle id="m602-m60_14" depart="11.58">
         <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m62-m60-a_189" depart="70.94">
-        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_184" depart="70.95">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_60" depart="71.39">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_154" depart="71.95">
-        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_39" depart="72.12">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_275" depart="72.21">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_162" depart="72.29">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_23" depart="72.41">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_28" depart="73.13">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_277" depart="73.3">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_133" depart="73.42">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_207" depart="73.56">
-        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_19" depart="73.96">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_291" depart="74.38">
-        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_256" depart="74.4">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_85" depart="74.88">
-        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_123" depart="74.93">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m602-m60_219" depart="74.98">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_114" depart="75.22">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_44" depart="75.52">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_130" depart="75.52">
-        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_271" depart="75.62">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_127" depart="76.35">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_202" depart="76.36">
+    <vehicle id="m602-m60_270" depart="11.98">
         <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-north_216" depart="76.83">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_209" depart="77.85">
-        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_135" depart="78.24">
-        <route edges="E7 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_163" depart="78.41">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_108" depart="78.6">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_205" depart="78.6">
-        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_64" depart="78.82">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_181" depart="78.92">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_284" depart="78.96">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_36" depart="78.97">
-        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_117" depart="79.08">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_174" depart="79.08">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m60-worsley_294" depart="79.11">
+    <vehicle id="m60-worsley_127" depart="12.09">
         <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
     </vehicle>
-    <vehicle id="m60-north_285" depart="79.13">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    <vehicle id="m62-m60-a_288" depart="12.12">
+        <route edges="E7 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m602-m60_290" depart="80.17">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_249" depart="80.32">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_84" depart="80.57">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_13" depart="80.72">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m60-north_179" depart="80.85">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_176" depart="81.58">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_296" depart="82.11">
-        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_280" depart="82.92">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_269" depart="83.21">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_30" depart="83.31">
-        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_218" depart="83.55">
+    <vehicle id="m602-m60_22" depart="12.22">
         <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-north_222" depart="83.56">
+    <vehicle id="m60-worsley_208" depart="12.37">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_85" depart="12.47">
+        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_126" depart="12.67">
+        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_286" depart="12.95">
+        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_219" depart="13.11">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_47" depart="13.29">
         <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-north_100" depart="83.8">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_101" depart="84.48">
+    <vehicle id="m60-worsley_295" depart="13.55">
         <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
     </vehicle>
-    <vehicle id="m60-north_76" depart="84.84">
+    <vehicle id="m60-north_138" depart="13.96">
         <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-worsley_168" depart="85.41">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m602-m60_51" depart="86.85">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_160" depart="87.01">
+    <vehicle id="m60-north_266" depart="14.88">
         <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-north_286" depart="87.77">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    <vehicle id="m60-worsley_162" depart="14.89">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
     </vehicle>
-    <vehicle id="m60-north_228" depart="88.05">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_128" depart="88.31">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_47" depart="88.94">
-        <route edges="E7 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_26" depart="89.3">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_192" depart="89.42">
-        <route edges="E7 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_11" depart="89.62">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_24" depart="90.61">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_66" depart="90.92">
-        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_113" depart="91.0">
-        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_217" depart="91.41">
-        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_246" depart="91.64">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_54" depart="91.7">
-        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_221" depart="92.02">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-worsley_25" depart="92.16">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_227" depart="92.16">
-        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_148" depart="92.48">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_80" depart="92.83">
-        <route edges="E7 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_288" depart="92.86">
+    <vehicle id="m602-m60_98" depart="14.96">
         <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m602-m60_90" depart="93.0">
+    <vehicle id="m60-worsley_161" depart="15.11">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m602-m60_281" depart="15.44">
+        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_124" depart="15.65">
         <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m602-m60_172" depart="93.19">
-        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    <vehicle id="m602-m60_136" depart="16.05">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-north_259" depart="93.38">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_177" depart="94.03">
-        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-b_8" depart="94.43">
+    <vehicle id="m62-m60-b_231" depart="16.4">
         <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m602-m60_248" depart="94.43">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    <vehicle id="m60-north_203" depart="16.58">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-north_95" depart="94.78">
-        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_155" depart="94.88">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m602-m60_71" depart="95.24">
-        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_118" depart="95.47">
-        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m62-m60-a_137" depart="95.67">
-        <route edges="E7 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
-    </vehicle>
-    <vehicle id="m60-north_182" depart="95.79">
+    <vehicle id="m60-north_268" depart="17.02">
         <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-north_150" depart="96.0">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    <vehicle id="m60-north_167" depart="17.08">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m602-m60_287" depart="96.31">
+    <vehicle id="m602-m60_132" depart="17.1">
         <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m62-m60-b_232" depart="96.53">
+    <vehicle id="m60-north_75" depart="17.15">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_1" depart="17.18">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_292" depart="17.27">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_217" depart="17.41">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_7" depart="17.68">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_128" depart="19.0">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_227" depart="19.1">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_53" depart="19.59">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_148" depart="19.84">
         <route edges="E7 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-north_105" depart="96.75">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    <vehicle id="m60-north_81" depart="19.85">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m602-m60_132" depart="97.09">
-        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    <vehicle id="m60-worsley_172" depart="20.86">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
     </vehicle>
-    <vehicle id="m602-m60_32" depart="97.14">
+    <vehicle id="m62-m60-a_169" depart="20.9">
+        <route edges="E7 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_60" depart="20.97">
         <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m602-m60_175" depart="97.37">
-        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    <vehicle id="m62-m60-b_86" depart="21.46">
+        <route edges="E7 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-north_46" depart="97.74">
+    <vehicle id="m60-north_274" depart="21.5">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_145" depart="21.54">
         <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-north_295" depart="98.0">
-        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    <vehicle id="m602-m60_237" depart="22.81">
+        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m62-m60-a_178" depart="98.57">
-        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    <vehicle id="m60-worsley_240" depart="23.36">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
     </vehicle>
-    <vehicle id="m60-north_58" depart="98.67">
-        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    <vehicle id="m602-m60_6" depart="23.73">
+        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-north_45" depart="98.86">
+    <vehicle id="m62-m60-a_91" depart="24.14">
+        <route edges="E7 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_82" depart="24.18">
+        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_57" depart="24.68">
+        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_152" depart="24.7">
+        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_290" depart="24.95">
         <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-north_151" depart="99.1">
+    <vehicle id="m60-north_34" depart="25.9">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_107" depart="26.44">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_191" depart="26.81">
         <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
-    <vehicle id="m60-north_143" depart="99.93">
+    <vehicle id="m62-m60-a_20" depart="27.12">
+        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_216" depart="27.12">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_297" depart="27.48">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_56" depart="27.5">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_26" depart="27.79">
+        <route edges="E7 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_18" depart="28.04">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_181" depart="28.15">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_149" depart="28.44">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_143" depart="28.48">
+        <route edges="E7 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_27" depart="28.52">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_73" depart="29.57">
+        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_273" depart="29.82">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_193" depart="30.13">
         <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_70" depart="30.52">
+        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_170" depart="30.6">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_122" depart="30.76">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_205" depart="30.82">
+        <route edges="E7 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_77" depart="31.04">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_225" depart="31.22">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_272" depart="32.36">
+        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_8" depart="32.41">
+        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_283" depart="34.17">
+        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_62" depart="34.37">
+        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_84" depart="34.37">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_257" depart="34.6">
+        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_102" depart="34.63">
+        <route edges="E7 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_39" depart="34.8">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_185" depart="35.18">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_296" depart="35.67">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_92" depart="35.77">
+        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_215" depart="36.0">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_197" depart="36.13">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_87" depart="37.02">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_279" depart="37.08">
+        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_131" depart="37.8">
+        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_228" depart="37.89">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_180" depart="37.98">
+        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_74" depart="38.42">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_163" depart="38.81">
+        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_195" depart="39.49">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_187" depart="39.65">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_113" depart="40.02">
+        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_153" depart="41.46">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_243" depart="41.66">
+        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_54" depart="41.73">
+        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_96" depart="42.12">
+        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_211" depart="42.65">
+        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_285" depart="43.84">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_178" depart="44.06">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_130" depart="44.37">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_245" depart="44.75">
+        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_30" depart="45.12">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_108" depart="45.52">
+        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_300" depart="45.54">
+        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_234" depart="45.93">
+        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_198" depart="46.22">
+        <route edges="E7 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_89" depart="46.8">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m602-m60_220" depart="46.9">
+        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_38" depart="46.94">
+        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_93" depart="47.29">
+        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_200" depart="48.24">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_154" depart="48.26">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_239" depart="49.63">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_196" depart="49.97">
+        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_157" depart="50.13">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_201" depart="50.27">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_224" depart="50.82">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_24" depart="50.93">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_271" depart="51.15">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_12" depart="51.41">
+        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_202" depart="51.45">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_189" depart="51.51">
+        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_44" depart="52.01">
+        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_210" depart="52.91">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_223" depart="52.99">
+        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_31" depart="53.13">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_51" depart="53.49">
+        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_61" depart="53.76">
+        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_207" depart="54.23">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_106" depart="54.4">
+        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_158" depart="55.09">
+        <route edges="E7 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_280" depart="55.35">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_168" depart="55.57">
+        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_42" depart="55.95">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_232" depart="56.94">
+        <route edges="E7 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_109" depart="57.12">
+        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_282" depart="57.52">
+        <route edges="E7 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_204" depart="57.59">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_222" depart="58.33">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_229" depart="58.69">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_28" depart="59.52">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-worsley_151" depart="59.52">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m602-m60_80" depart="59.66">
+        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_293" depart="60.48">
+        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_69" depart="60.52">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_45" depart="60.62">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_175" depart="61.35">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_264" depart="62.14">
+        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_171" depart="63.23">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_133" depart="63.69">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_135" depart="63.77">
+        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_235" depart="63.92">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_244" depart="64.27">
+        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_212" depart="64.45">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_21" depart="64.61">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_192" depart="64.77">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_25" depart="65.71">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_144" depart="65.8">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_255" depart="65.88">
+        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_2" depart="66.18">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_262" depart="66.23">
+        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_263" depart="66.66">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_10" depart="67.21">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_23" depart="67.33">
+        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_100" depart="67.34">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_261" depart="67.49">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_101" depart="67.5">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_298" depart="67.77">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_3" depart="67.84">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_199" depart="68.29">
+        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_252" depart="68.31">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_278" depart="68.41">
+        <route edges="E7 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_67" depart="69.05">
+        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_275" depart="69.58">
+        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_59" depart="69.62">
+        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_160" depart="69.85">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_147" depart="70.31">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m602-m60_97" depart="70.58">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_206" depart="70.63">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_104" depart="70.84">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_121" depart="72.04">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_35" depart="72.05">
+        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_299" depart="72.75">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_103" depart="72.81">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_114" depart="73.67">
+        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_11" depart="74.31">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_254" depart="74.43">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_78" depart="74.82">
+        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_58" depart="75.05">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_29" depart="75.14">
+        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_221" depart="75.23">
+        <route edges="E7 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_117" depart="75.94">
+        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_155" depart="77.07">
+        <route edges="E7 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_4" depart="77.44">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_88" depart="77.63">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_258" depart="78.16">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_142" depart="78.4">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_226" depart="78.44">
+        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_188" depart="79.31">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_36" depart="79.34">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_15" depart="79.51">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_218" depart="79.66">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_63" depart="80.03">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_120" depart="80.67">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_66" depart="80.72">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_289" depart="80.95">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_16" depart="81.16">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_184" depart="81.72">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_276" depart="81.91">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_260" depart="82.32">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_287" depart="82.67">
+        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_139" depart="82.68">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_176" depart="83.02">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_259" depart="83.34">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_41" depart="83.38">
+        <route edges="E7 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_99" depart="83.39">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_46" depart="85.06">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_241" depart="85.18">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_32" depart="85.41">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_105" depart="86.22">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_40" depart="86.93">
+        <route edges="E5 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_112" depart="87.32">
+        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_249" depart="87.35">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_43" depart="87.38">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_76" depart="87.71">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_146" depart="88.01">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_159" depart="88.02">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_48" depart="88.55">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_9" depart="88.72">
+        <route edges="E8 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_165" depart="89.14">
+        <route edges="E9 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_182" depart="89.76">
+        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_19" depart="89.79">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_134" depart="90.45">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_246" depart="90.57">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_150" depart="90.58">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_251" depart="91.18">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_173" depart="91.34">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_64" depart="92.77">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_118" depart="92.98">
+        <route edges="E13 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_71" depart="93.03">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_13" depart="93.95">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_83" depart="93.97">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_17" depart="94.06">
+        <route edges="E14 E2 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-worsley_190" depart="94.1">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-worsley_248" depart="94.1">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_115" depart="95.05">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_213" depart="95.07">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_129" depart="95.72">
+        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_265" depart="95.79">
+        <route edges="E11 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_277" depart="96.0">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_90" depart="96.05">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_174" depart="96.59">
+        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_236" depart="96.69">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_123" depart="96.78">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_94" depart="97.16">
+        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_137" depart="97.17">
+        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_33" depart="97.57">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_164" depart="98.0">
+        <route edges="E4 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-worsley_95" depart="98.29">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="m60-north_79" depart="98.61">
+        <route edges="E10 E1 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_156" depart="98.74">
+        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m602-m60_186" depart="98.91">
+        <route edges="E3 145868728 145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m60-north_267" depart="99.05">
+        <route edges="E12 E0 146417963 146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_125" depart="99.08">
+        <route edges="E8 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-b_37" depart="99.25">
+        <route edges="E6 46372495 111538044 296702213 E15 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
+    </vehicle>
+    <vehicle id="m62-m60-a_166" depart="99.54">
+        <route edges="E6 46372495 111538044 296702213 296702213.417 145852821 145852821.67 145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"/>
     </vehicle>
 </routes>
