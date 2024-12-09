@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-12-09 09:36:55 by Eclipse SUMO duarouter Version 1.21.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="interchange.net.xml"/>
+        <route-files value="interchangeTraffic.rou.xml"/>
+    </input>
+
+    <output>
+        <output-file value="interchangeTrafficClean.rou.xml"/>
+    </output>
+
+    <processing>
+        <remove-loops value="true"/>
+        <repair value="true"/>
+    </processing>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="2" depart="4.00">
+        <route edges="28180422-AddedOffRampEdge 166118925 3993176-AddedOnRampEdge 3993176 230600243-AddedOnRampEdge 230600243"/>
+    </vehicle>
+    <vehicle id="4" depart="8.00">
+        <route edges="145876504 1050880328-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="5" depart="10.00">
+        <route edges="145852845 1317395437 91733514#0 91733514#0-AddedOffRampEdge 146417967 146417970"/>
+    </vehicle>
+    <vehicle id="11" depart="22.00">
+        <route edges="145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852815"/>
+    </vehicle>
+    <vehicle id="13" depart="26.00">
+        <route edges="1317395437"/>
+    </vehicle>
+    <vehicle id="17" depart="34.00">
+        <route edges="145876501 146417974#1-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="23" depart="46.00">
+        <route edges="1317395437 28180422 28180422-AddedOffRampEdge 145868734"/>
+    </vehicle>
+    <vehicle id="25" depart="50.00">
+        <route edges="145876499 158470844#1-AddedOnRampEdge 158470844#1 145852821 145852815 145852815-AddedOffRampEdge 145852856"/>
+    </vehicle>
+    <vehicle id="35" depart="70.00">
+        <route edges="145852845 1317395437 91733514#0"/>
+    </vehicle>
+    <vehicle id="39" depart="78.00">
+        <route edges="145868725-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="43" depart="86.00">
+        <route edges="91733514#0-AddedOffRampEdge 146417967 146417970"/>
+    </vehicle>
+    <vehicle id="45" depart="90.00">
+        <route edges="1317395437 28180422 28180422-AddedOffRampEdge 166118925"/>
+    </vehicle>
+    <vehicle id="55" depart="110.00">
+        <route edges="4448204 4448204-AddedOffRampEdge 296694121 1050880328-AddedOnRampEdge 1050880328 145868725-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="56" depart="112.00">
+        <route edges="146417963-AddedOffRampEdge 158470844#0 158470844#1-AddedOnRampEdge 158470844#1 145852821"/>
+    </vehicle>
+    <vehicle id="57" depart="114.00">
+        <route edges="46372495 4448204"/>
+    </vehicle>
+    <vehicle id="59" depart="118.00">
+        <route edges="158470844#1 145852821 145852815"/>
+    </vehicle>
+    <vehicle id="77" depart="154.00">
+        <route edges="145852801 1317395437 28180422 28180422-AddedOffRampEdge 145868734 145868725-AddedOnRampEdge 145868725"/>
+    </vehicle>
+    <vehicle id="78" depart="156.00">
+        <route edges="145876496 611356040 145876499 158470844#1-AddedOnRampEdge 158470844#1"/>
+    </vehicle>
+    <vehicle id="90" depart="180.00">
+        <route edges="28180422 28180422-AddedOffRampEdge 166118925 3993176-AddedOnRampEdge 3993176 230600243-AddedOnRampEdge 230600243"/>
+    </vehicle>
+</routes>

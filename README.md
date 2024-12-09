@@ -21,3 +21,15 @@ duarouter --net-file merge.net.xml --route-files mergeTraffic.rou.xml --output-f
 ```
 sumo-gui -c mergeSim.cfg --delay 200
 ```
+
+
+## Interchange
+
+### Random traffic
+```
+python "C:\Program Files (x86)\Eclipse\Sumo\tools\randomTrips.py" -n "interchange.net.xml" -o "interchangeTraffic.rou.xml" --period 2 --seed 42
+```
+
+```
+duarouter --net-file interchange.net.xml --route-files interchangeTraffic.rou.xml --output-file interchangeTrafficClean.rou.xml --remove-loops --repair
+```
