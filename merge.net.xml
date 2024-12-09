@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-12-08 20:53:56 by Eclipse SUMO netedit Version 1.21.0
+<!-- generated on 2024-12-09 09:12:37 by Eclipse SUMO netedit Version 1.21.0
 <neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
@@ -37,9 +37,11 @@
         <lane id=":J4_0_0" index="0" speed="13.89" length="28.73" shape="2.94,-0.34 7.44,0.63 13.60,1.96 21.53,3.16 31.31,3.69"/>
     </edge>
     <edge id=":J4_1" function="internal">
-        <lane id=":J4_1_0" index="0" speed="13.89" length="28.71" shape="2.61,3.47 31.31,3.69"/>
-        <lane id=":J4_1_1" index="1" speed="13.89" length="28.71" shape="2.59,6.67 31.30,6.89"/>
-        <lane id=":J4_1_2" index="2" speed="13.89" length="28.71" shape="2.58,9.87 31.29,10.09"/>
+        <lane id=":J4_1_0" index="0" speed="13.89" length="28.81" shape="2.61,3.47 31.31,3.69"/>
+        <lane id=":J4_1_1" index="1" speed="13.89" length="28.81" shape="2.61,3.47 11.16,4.03 16.96,5.19 22.75,6.35 31.30,6.89"/>
+        <lane id=":J4_1_2" index="2" speed="13.89" length="28.81" shape="2.59,6.67 31.30,6.89"/>
+        <lane id=":J4_1_3" index="3" speed="13.89" length="28.81" shape="2.59,6.67 11.14,7.23 16.94,8.39 22.74,9.55 31.29,10.09"/>
+        <lane id=":J4_1_4" index="4" speed="13.89" length="28.81" shape="2.58,9.87 31.29,10.09"/>
     </edge>
 
     <edge id="E0" from="J0" to="J1" priority="-1">
@@ -64,24 +66,30 @@
         <request index="0" response="0" foes="0" cont="0"/>
     </junction>
     <junction id="J2" type="dead_end" x="-53.80" y="11.16" incLanes="" intLanes="" shape="-53.80,11.16 -53.75,1.56"/>
-    <junction id="J4" type="priority" x="66.60" y="11.83" incLanes="E3_0 E2_0 E2_1 E2_2" intLanes=":J4_0_0 :J4_1_0 :J4_1_1 :J4_1_2" shape="31.28,11.69 31.32,2.09 25.28,1.94 20.83,1.55 17.19,0.94 13.56,0.14 9.16,-0.82 3.20,-1.92 2.67,1.24 2.62,1.87 2.57,11.47">
-        <request index="0" response="1110" foes="1110" cont="0"/>
-        <request index="1" response="0000" foes="0001" cont="0"/>
-        <request index="2" response="0000" foes="0001" cont="0"/>
-        <request index="3" response="0000" foes="0001" cont="0"/>
+    <junction id="J4" type="zipper" x="66.60" y="11.83" incLanes="E3_0 E2_0 E2_1 E2_2" intLanes=":J4_0_0 :J4_1_0 :J4_1_1 :J4_1_2 :J4_1_3 :J4_1_4" shape="31.28,11.69 31.32,2.09 25.28,1.94 20.83,1.55 17.19,0.94 13.56,0.14 9.16,-0.82 3.20,-1.92 2.67,1.24 2.62,1.87 2.57,11.47">
+        <request index="0" response="000010" foes="000010" cont="0"/>
+        <request index="1" response="000001" foes="000001" cont="0"/>
+        <request index="2" response="001000" foes="001000" cont="0"/>
+        <request index="3" response="000100" foes="000100" cont="0"/>
+        <request index="4" response="100000" foes="100000" cont="0"/>
+        <request index="5" response="010000" foes="010000" cont="0"/>
     </junction>
     <junction id="J5" type="dead_end" x="99.22" y="11.95" incLanes="E4_0 E4_1 E4_2" intLanes="" shape="99.26,2.35 99.22,11.95"/>
 
     <connection from="E0" to="E3" fromLane="0" toLane="0" via=":J1_0_0" dir="s" state="M"/>
-    <connection from="E2" to="E4" fromLane="0" toLane="0" via=":J4_1_0" dir="s" state="M"/>
-    <connection from="E2" to="E4" fromLane="1" toLane="1" via=":J4_1_1" dir="s" state="M"/>
-    <connection from="E2" to="E4" fromLane="2" toLane="2" via=":J4_1_2" dir="s" state="M"/>
-    <connection from="E3" to="E4" fromLane="0" toLane="0" via=":J4_0_0" dir="s" state="m"/>
+    <connection from="E2" to="E4" fromLane="0" toLane="0" via=":J4_1_0" dir="s" state="Z"/>
+    <connection from="E2" to="E4" fromLane="0" toLane="1" via=":J4_1_1" dir="s" state="Z"/>
+    <connection from="E2" to="E4" fromLane="1" toLane="1" via=":J4_1_2" dir="s" state="Z"/>
+    <connection from="E2" to="E4" fromLane="1" toLane="2" via=":J4_1_3" dir="s" state="Z"/>
+    <connection from="E2" to="E4" fromLane="2" toLane="2" via=":J4_1_4" dir="s" state="Z"/>
+    <connection from="E3" to="E4" fromLane="0" toLane="0" via=":J4_0_0" dir="s" state="Z"/>
 
     <connection from=":J1_0" to="E3" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":J4_0" to="E4" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":J4_1" to="E4" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":J4_1" to="E4" fromLane="1" toLane="1" dir="s" state="M"/>
-    <connection from=":J4_1" to="E4" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":J4_1" to="E4" fromLane="2" toLane="1" dir="s" state="M"/>
+    <connection from=":J4_1" to="E4" fromLane="3" toLane="2" dir="s" state="M"/>
+    <connection from=":J4_1" to="E4" fromLane="4" toLane="2" dir="s" state="M"/>
 
 </net>
