@@ -1,7 +1,6 @@
 import random
 
-def generate_random_vehicles(output_file, num_vehicles, duration = 100):
-
+def generate_random_vehicles(output_file, num_vehicles, duration=100):
     # Dictionary of routes with start node options and density attribute
     routes = {
         "m602-m60": {
@@ -52,7 +51,6 @@ def generate_random_vehicles(output_file, num_vehicles, duration = 100):
     # Generate vehicle data
     vehicles = []
     for i in range(1, num_vehicles + 1):
-
         # Random depart time between 1.00 and "duration" seconds
         depart_time = round(random.uniform(1.0, duration), 2)
         
@@ -66,10 +64,13 @@ def generate_random_vehicles(output_file, num_vehicles, duration = 100):
         # Add a random start node to the route
         start_node = random.choice(routes[route_key]["start_nodes"])
         route = routes[route_key]["route"]
-        full_route = f"{start_node} " + route
+        full_route = f"{start_node} {route}"
+        
+        # Generate vehicle ID with route key and index
+        vehicle_id = f"{route_key}_{i}"
         
         # Append the vehicle data
-        vehicles.append((i, depart_time, full_route))
+        vehicles.append((vehicle_id, depart_time, full_route))
 
     # Sort vehicles by departure time
     vehicles.sort(key=lambda x: x[1])
