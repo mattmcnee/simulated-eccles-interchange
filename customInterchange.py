@@ -19,6 +19,21 @@ def generate_vehicles_with_random_routes_and_start_nodes(output_file, num_vehicl
                 "145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"
             )
         },
+        "m60-worsley": {
+            "start_nodes": ["E0", "E1", "E2"],
+            "route": (
+                "146417963 146417963-AddedOffRampEdge 158470844#0 "
+                "158470844#1-AddedOnRampEdge 158470844#1 145852821 "
+                "145852815 145852815-AddedOffRampEdge 145852856"
+            )
+        },
+        "m62-m60": {
+            "start_nodes": ["E6", "E7", "E8"],
+            "route": (
+                "46372495 111538044 296702213 145852821 145852815 "
+                "145852815-AddedOffRampEdge 1066957350 145852800#1"
+            )
+        },
     }
 
     # Generate vehicle data
