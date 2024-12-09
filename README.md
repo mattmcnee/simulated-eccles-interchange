@@ -33,3 +33,11 @@ python "C:\Program Files (x86)\Eclipse\Sumo\tools\randomTrips.py" -n "interchang
 ```
 duarouter --net-file interchange.net.xml --route-files interchangeTraffic.rou.xml --output-file interchangeTrafficClean.rou.xml --remove-loops --repair
 ```
+
+```
+sumo-gui -c interchangeSim.cfg --delay 200 --step-length 0.1
+```
+
+```
+sumo-gui -c interchangeSim.cfg --delay 200 --step-length 0.05
+```
