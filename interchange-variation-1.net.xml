@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-12-09 13:40:31 by Eclipse SUMO netedit Version 1.21.0
+<!-- generated on 2024-12-09 18:48:20 by Eclipse SUMO netedit Version 1.21.0
 <neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
@@ -64,16 +64,15 @@
         <lane id=":145868725-AddedOnRampNode_0_2" index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="8.00" shape="1401.59,1189.95 1409.39,1191.73"/>
     </edge>
     <edge id=":145876507-AddedOffRampNode_0" function="internal">
-        <lane id=":145876507-AddedOffRampNode_0_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="22.35" length="8.92" shape="886.68,652.27 884.99,654.58 885.10,657.13 885.22,659.69 883.53,662.01"/>
-        <lane id=":145876507-AddedOffRampNode_0_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="22.35" length="8.92" shape="886.68,652.27 884.90,654.04 884.22,655.80 883.54,657.57 881.77,659.34"/>
-        <lane id=":145876507-AddedOffRampNode_0_2" index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="22.35" length="8.92" shape="886.68,652.27 880.00,656.67"/>
-        <lane id=":145876507-AddedOffRampNode_0_3" index="3" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="22.35" length="8.92" shape="884.92,649.59 878.24,654.00"/>
+        <lane id=":145876507-AddedOffRampNode_0_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="22.35" length="9.12" shape="886.68,652.27 884.99,654.58 885.10,657.13 885.22,659.69 883.53,662.01"/>
+        <lane id=":145876507-AddedOffRampNode_0_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="22.35" length="9.12" shape="886.68,652.27 884.90,654.04 884.22,655.80 883.54,657.57 881.77,659.34"/>
+        <lane id=":145876507-AddedOffRampNode_0_2" index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="22.35" length="9.12" shape="884.92,649.59 883.14,651.36 882.46,653.13 881.78,654.89 880.00,656.67"/>
+        <lane id=":145876507-AddedOffRampNode_0_3" index="3" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="22.35" length="9.12" shape="884.92,649.59 878.24,654.00"/>
     </edge>
     <edge id=":146417963-AddedOffRampNode_0" function="internal">
-        <lane id=":146417963-AddedOffRampNode_0_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="8.21" shape="947.15,387.99 947.40,390.36 947.95,391.95 948.51,393.54 948.78,395.91"/>
-        <lane id=":146417963-AddedOffRampNode_0_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="8.21" shape="943.95,387.97 944.20,390.37 944.75,391.96 945.31,393.56 945.58,395.95"/>
-        <lane id=":146417963-AddedOffRampNode_0_2" index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="8.21" shape="940.75,387.96 941.00,390.37 941.55,391.97 942.11,393.58 942.38,395.98"/>
-        <lane id=":146417963-AddedOffRampNode_0_3" index="3" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="8.21" shape="940.75,387.96 940.50,390.38 939.95,391.99 939.41,393.60 939.18,396.02"/>
+        <lane id=":146417963-AddedOffRampNode_0_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="0.29" shape="947.14,391.84 947.14,392.08"/>
+        <lane id=":146417963-AddedOffRampNode_0_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="0.29" shape="943.94,391.82 943.94,392.12"/>
+        <lane id=":146417963-AddedOffRampNode_0_2" index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="0.29" shape="940.74,391.81 940.74,392.15"/>
     </edge>
     <edge id=":146417974#1-AddedOnRampNode_0" function="internal">
         <lane id=":146417974#1-AddedOnRampNode_0_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="8.00" shape="976.24,439.15 976.20,431.15"/>
@@ -123,12 +122,11 @@
         <lane id=":1591971755_2_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="26.82" length="2.12" shape="868.39,1160.17 868.88,1159.85 869.21,1159.63 869.56,1159.43 870.08,1159.17"/>
     </edge>
     <edge id=":1592003797_0" function="internal">
-        <lane id=":1592003797_0_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="6.04" shape="949.02,488.09 948.70,494.13"/>
-        <lane id=":1592003797_0_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="6.04" shape="945.82,488.05 945.50,494.07"/>
+        <lane id=":1592003797_0_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="5.73" shape="947.42,488.22 946.90,493.87"/>
+        <lane id=":1592003797_0_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="5.73" shape="944.22,488.19 943.70,493.95"/>
     </edge>
     <edge id=":1592003797_2" function="internal">
-        <lane id=":1592003797_2_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="26.82" length="4.49" shape="942.62,488.01 942.59,489.34 942.51,490.25 942.35,491.15 942.08,492.46"/>
-        <lane id=":1592003797_2_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="26.82" length="3.87" shape="939.42,487.97 939.39,489.12 939.32,489.90 939.18,490.68 938.95,491.80"/>
+        <lane id=":1592003797_2_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="26.82" length="5.60" shape="941.02,488.15 940.96,489.80 940.81,490.93 940.56,492.04 940.19,493.67"/>
     </edge>
     <edge id=":1592003809_0" function="internal">
         <lane id=":1592003809_0_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="81.15" shape="269.89,553.07 197.65,515.52"/>
@@ -210,11 +208,11 @@
         <lane id=":3005116315_2_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="3.43" shape="509.06,681.09 508.37,680.45 508.17,679.72 507.98,678.99 507.31,678.33"/>
     </edge>
     <edge id=":3005116317_0" function="internal">
-        <lane id=":3005116317_0_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="12.99" shape="843.32,1072.05 842.18,1075.75 841.81,1078.42 841.36,1081.06 839.99,1084.66"/>
-        <lane id=":3005116317_0_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="12.99" shape="840.35,1070.87 839.23,1074.51 838.87,1077.14 838.44,1079.74 837.10,1083.28"/>
+        <lane id=":3005116317_0_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="10.23" shape="838.80,1081.24 834.74,1091.80"/>
+        <lane id=":3005116317_0_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="10.23" shape="835.92,1079.85 832.64,1088.38"/>
     </edge>
     <edge id=":3005116317_2" function="internal">
-        <lane id=":3005116317_2_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="12.41" shape="837.03,1069.89 836.55,1073.05 836.25,1075.65 835.64,1078.37 834.21,1081.90"/>
+        <lane id=":3005116317_2_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="6.73" shape="832.70,1078.59 830.53,1084.97"/>
     </edge>
     <edge id=":3005116322_0" function="internal">
         <lane id=":3005116322_0_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="26.82" length="1.87" shape="665.26,855.99 665.55,856.53 665.72,856.92 665.87,857.32 666.10,857.89"/>
@@ -313,13 +311,13 @@
         <lane id=":J1_1_0" index="0" speed="32.00" length="33.10" shape="984.43,-50.55 985.71,-44.10 987.63,-34.31 989.45,-24.50 990.45,-18.01"/>
     </edge>
     <edge id=":J15_0" function="internal">
-        <lane id=":J15_0_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="7.92" shape="708.94,1315.81 704.14,1322.57"/>
-        <lane id=":J15_0_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="7.92" shape="706.19,1314.16 701.53,1320.71"/>
-        <lane id=":J15_0_2" index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="7.92" shape="703.44,1312.51 698.92,1318.86"/>
-        <lane id=":J15_0_3" index="3" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="7.92" shape="700.69,1310.86 696.31,1317.00"/>
+        <lane id=":J15_0_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="7.93" shape="708.95,1315.80 704.14,1322.55"/>
+        <lane id=":J15_0_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="7.93" shape="706.20,1314.15 701.53,1320.70"/>
+        <lane id=":J15_0_2" index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="7.93" shape="703.45,1312.49 698.91,1318.86"/>
+        <lane id=":J15_0_3" index="3" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="7.93" shape="700.69,1310.84 696.30,1317.01"/>
     </edge>
     <edge id=":J15_4" function="internal">
-        <lane id=":J15_4_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.64" length="7.82" shape="698.67,1309.65 697.78,1311.75 697.59,1313.39 697.35,1314.99 696.31,1317.00"/>
+        <lane id=":J15_4_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.64" length="7.84" shape="698.68,1309.63 697.78,1311.74 697.58,1313.38 697.33,1314.99 696.30,1317.01"/>
     </edge>
     <edge id=":J2_0" function="internal">
         <lane id=":J2_0_0" index="0" speed="32.00" length="35.37" shape="1008.99,-47.43 1006.99,-40.79 1003.87,-30.49 1000.65,-20.23 998.34,-13.70"/>
@@ -332,6 +330,10 @@
     </edge>
     <edge id=":J3_1" function="internal">
         <lane id=":J3_1_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="27.18" length="19.44" shape="740.37,1245.92 737.27,1251.57 734.87,1256.02 732.79,1259.64 730.68,1262.76"/>
+    </edge>
+    <edge id=":J4_0" function="internal">
+        <lane id=":J4_0_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="22.35" length="8.21" shape="938.75,514.94 938.94,517.34 939.46,518.96 940.00,520.57 940.26,522.97"/>
+        <lane id=":J4_0_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="22.35" length="8.21" shape="938.75,514.94 938.44,517.33 937.86,518.92 937.30,520.51 937.06,522.90"/>
     </edge>
 
     <edge id="1050880328" from="1050880328-AddedOnRampNode" to="323816" priority="14" type="highway.motorway" spreadType="center" shape="1091.45,1030.71 1147.53,1062.55 1198.41,1092.06 1245.52,1118.21 1279.15,1136.95 1314.14,1150.09">
@@ -396,17 +398,17 @@
         <param key="ref" value="M60"/>
     </edge>
     <edge id="145852821" from="1591847283" to="J15" priority="14" type="highway.motorway" spreadType="center" shape="740.27,1264.35 720.92,1290.68 699.02,1321.48">
-        <lane id="145852821_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="59.58" acceleration="1" shape="743.61,1267.91 724.81,1293.49 708.94,1315.81"/>
-        <lane id="145852821_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="59.58" acceleration="1" shape="741.03,1266.01 722.22,1291.62 706.19,1314.16"/>
-        <lane id="145852821_2" index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="59.58" acceleration="1" shape="738.45,1264.12 719.62,1289.74 703.44,1312.51"/>
-        <lane id="145852821_3" index="3" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="59.58" shape="735.88,1262.22 717.03,1287.87 700.69,1310.86"/>
+        <lane id="145852821_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="59.57" acceleration="1" shape="743.61,1267.91 724.81,1293.49 708.95,1315.80"/>
+        <lane id="145852821_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="59.57" acceleration="1" shape="741.03,1266.01 722.22,1291.62 706.20,1314.15"/>
+        <lane id="145852821_2" index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="59.57" acceleration="1" shape="738.45,1264.12 719.62,1289.74 703.45,1312.49"/>
+        <lane id="145852821_3" index="3" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="59.57" shape="735.88,1262.22 717.03,1287.87 700.69,1310.84"/>
         <param key="ref" value="M60"/>
     </edge>
     <edge id="145852821.67" from="J15" to="1591847337" priority="14" type="highway.motorway" spreadType="center" shape="699.02,1321.48 698.78,1321.82 681.71,1345.82 629.88,1420.89">
-        <lane id="145852821.67_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="122.93" acceleration="1" shape="704.14,1322.57 702.69,1324.60 685.64,1348.57 633.97,1423.42"/>
-        <lane id="145852821.67_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="122.93" acceleration="1" shape="701.53,1320.71 700.08,1322.75 683.02,1346.74 631.33,1421.60"/>
-        <lane id="145852821.67_2" index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="122.93" acceleration="1" shape="698.92,1318.86 697.48,1320.89 680.40,1344.90 628.70,1419.78"/>
-        <lane id="145852821.67_3" index="3" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="122.93" shape="696.31,1317.00 694.87,1319.04 677.78,1343.07 626.07,1417.97"/>
+        <lane id="145852821.67_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="122.93" acceleration="1" shape="704.14,1322.55 702.70,1324.60 685.64,1348.57 633.97,1423.42"/>
+        <lane id="145852821.67_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="122.93" acceleration="1" shape="701.53,1320.70 700.09,1322.75 683.02,1346.74 631.33,1421.60"/>
+        <lane id="145852821.67_2" index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="122.93" acceleration="1" shape="698.91,1318.86 697.47,1320.89 680.40,1344.90 628.70,1419.78"/>
+        <lane id="145852821.67_3" index="3" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="122.93" shape="696.30,1317.01 694.86,1319.04 677.78,1343.07 626.07,1417.97"/>
         <param key="ref" value="M60"/>
     </edge>
     <edge id="145852845" from="1591848047" to="1591847592" priority="9" type="highway.motorway_link" spreadType="center" shape="428.55,2257.06 423.78,2250.12 417.58,2240.67 411.91,2231.01 406.76,2221.15 403.06,2213.07 399.57,2204.48 395.79,2194.89 391.51,2180.49 388.25,2169.38 384.66,2154.95 381.41,2138.09 379.61,2127.52 377.83,2114.66 376.17,2100.96 374.64,2084.34 373.25,2070.67 372.61,2053.34 372.37,2033.91 373.03,2015.90 372.04,1975.44">
@@ -455,8 +457,8 @@
         <lane id="145876496_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="82.60" shape="1224.88,1091.00 1209.87,1077.58 1195.28,1067.11 1158.85,1041.54"/>
         <param key="ref" value="M602"/>
     </edge>
-    <edge id="145876499" from="1592003993" to="3005116317" priority="9" type="highway.motorway_link" spreadType="center" shape="1075.65,926.60 1072.14,918.32 1069.93,899.29 1065.18,854.67 1059.59,798.21 1057.63,781.68 1056.03,772.86 1053.74,761.79 1051.59,751.41 1047.91,739.49 1043.79,729.53 1038.27,719.54 1033.56,712.50 1026.76,704.33 1019.81,697.97 1013.49,692.60 1007.69,688.59 1001.98,684.70 995.98,681.31 991.79,679.46 987.70,677.89 983.72,676.63 978.77,675.25 972.89,673.91 965.08,672.84 958.36,672.46 951.48,672.62 944.04,673.22 937.31,674.22 929.96,675.75 921.90,678.19 913.65,681.41 905.59,685.25 898.79,689.42 892.80,693.97 885.15,700.69 876.77,710.82 872.41,716.13 867.86,723.98 862.73,733.39 859.56,742.73 857.04,751.55 854.90,761.44 854.25,771.92 854.63,786.38 855.34,799.15 857.47,813.02 864.56,845.90 868.23,864.45 870.11,877.55 870.63,895.52 869.42,915.56 866.85,942.91 865.74,953.00 857.93,986.27 849.90,1017.18 844.34,1035.60 840.41,1052.96 834.92,1080.49">
-        <lane id="145876499_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="770.17" shape="1075.05,925.20 1072.14,918.32 1069.93,899.29 1065.18,854.67 1059.59,798.21 1057.63,781.68 1056.03,772.86 1053.74,761.79 1051.59,751.41 1047.91,739.49 1043.79,729.53 1038.27,719.54 1033.56,712.50 1026.76,704.33 1019.81,697.97 1013.49,692.60 1007.69,688.59 1001.98,684.70 995.98,681.31 991.79,679.46 987.70,677.89 983.72,676.63 978.77,675.25 972.89,673.91 965.08,672.84 958.36,672.46 951.48,672.62 944.04,673.22 937.31,674.22 929.96,675.75 921.90,678.19 913.65,681.41 905.59,685.25 898.79,689.42 892.80,693.97 885.15,700.69 876.77,710.82 872.41,716.13 867.86,723.98 862.73,733.39 859.56,742.73 857.04,751.55 854.90,761.44 854.25,771.92 854.63,786.38 855.34,799.15 857.47,813.02 864.56,845.90 868.23,864.45 870.11,877.55 870.63,895.52 869.42,915.56 866.85,942.91 865.74,953.00 857.93,986.27 849.90,1017.18 844.34,1035.60 840.41,1052.96 837.03,1069.89"/>
+    <edge id="145876499" from="1592003993" to="3005116317" priority="9" type="highway.motorway_link" spreadType="center" shape="1075.65,926.60 1072.14,918.32 1069.93,899.29 1065.18,854.67 1059.59,798.21 1057.63,781.68 1056.03,772.86 1053.74,761.79 1051.59,751.41 1047.91,739.49 1043.79,729.53 1038.27,719.54 1033.56,712.50 1026.76,704.33 1019.81,697.97 1013.49,692.60 1007.69,688.59 1001.98,684.70 995.98,681.31 991.79,679.46 987.70,677.89 983.72,676.63 978.77,675.25 972.89,673.91 965.08,672.84 958.36,672.46 951.48,672.62 944.04,673.22 937.31,674.22 929.96,675.75 921.90,678.19 913.65,681.41 905.59,685.25 898.79,689.42 892.80,693.97 885.15,700.69 876.77,710.82 872.41,716.13 867.86,723.98 862.73,733.39 859.56,742.73 857.04,751.55 854.90,761.44 854.25,771.92 854.63,786.38 855.34,799.15 857.47,813.02 864.56,845.90 868.23,864.45 870.11,877.55 870.63,895.52 869.42,915.56 866.85,942.91 865.74,953.00 857.93,986.27 849.90,1017.18 844.34,1035.60 840.41,1052.96 831.94,1081.10">
+        <lane id="145876499_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="779.67" shape="1075.05,925.20 1072.14,918.32 1069.93,899.29 1065.18,854.67 1059.59,798.21 1057.63,781.68 1056.03,772.86 1053.74,761.79 1051.59,751.41 1047.91,739.49 1043.79,729.53 1038.27,719.54 1033.56,712.50 1026.76,704.33 1019.81,697.97 1013.49,692.60 1007.69,688.59 1001.98,684.70 995.98,681.31 991.79,679.46 987.70,677.89 983.72,676.63 978.77,675.25 972.89,673.91 965.08,672.84 958.36,672.46 951.48,672.62 944.04,673.22 937.31,674.22 929.96,675.75 921.90,678.19 913.65,681.41 905.59,685.25 898.79,689.42 892.80,693.97 885.15,700.69 876.77,710.82 872.41,716.13 867.86,723.98 862.73,733.39 859.56,742.73 857.04,751.55 854.90,761.44 854.25,771.92 854.63,786.38 855.34,799.15 857.47,813.02 864.56,845.90 868.23,864.45 870.11,877.55 870.63,895.52 869.42,915.56 866.85,942.91 865.74,953.00 857.93,986.27 849.90,1017.18 844.34,1035.60 840.41,1052.96 832.70,1078.59"/>
         <param key="ref" value="M60"/>
     </edge>
     <edge id="145876501" from="1592003993" to="298553553" priority="9" type="highway.motorway_link" spreadType="center" shape="1078.29,928.86 1079.43,921.36 1078.71,900.51 1075.62,853.49 1071.88,800.15 1069.75,771.88 1068.32,758.71 1066.72,749.19 1064.98,740.36 1062.94,733.06 1060.62,726.19 1057.58,720.15 1053.58,713.26 1048.46,705.38 1041.67,696.23 1023.63,674.94 1014.74,664.80 1008.49,657.04 1004.06,651.55 999.90,645.22 995.90,638.05 991.77,629.62 988.34,620.64 985.74,613.20 983.57,604.65 981.96,596.38 981.33,588.82 980.32,575.93 978.54,554.66 976.70,535.15">
@@ -468,9 +470,8 @@
         <lane id="145876504_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="583.63" shape="787.78,689.92 750.82,696.51 737.04,701.32 725.19,706.26 716.46,711.56 707.61,717.31 699.28,724.49 692.81,731.25 686.44,739.03 679.99,749.23 675.22,758.61 670.44,769.46 667.56,778.92 666.13,786.53 666.54,794.95 666.77,801.44 668.15,809.38 669.46,818.84 671.73,826.51 675.12,835.38 679.46,844.24 684.21,852.88 689.50,859.51 697.08,868.20 705.52,876.23 714.23,882.71 727.82,890.50 741.27,895.74 754.67,899.21 771.74,902.28 787.53,904.51 813.12,908.67 829.38,911.34 847.34,915.84 866.49,921.82 882.70,928.72 910.20,940.78 1002.54,982.53"/>
         <param key="ref" value="M602"/>
     </edge>
-    <edge id="145876507" from="1592003797" to="145876507-AddedOffRampNode" priority="9" type="highway.motorway_link" spreadType="center" shape="941.00,489.80 939.12,498.77 938.64,519.63 938.77,538.33 937.94,552.83 936.69,564.42 935.18,572.85 932.09,582.52 928.55,593.45 924.15,604.43 918.05,614.52 910.41,626.18 901.79,636.97 889.20,648.69 882.46,653.13">
-        <lane id="145876507_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="22.35" length="175.38" shape="942.08,492.46 940.72,498.95 940.24,519.64 940.37,538.37 939.54,552.96 938.27,564.65 936.74,573.24 933.61,583.01 930.06,593.99 925.59,605.15 919.40,615.37 911.71,627.12 902.97,638.06 890.19,649.95 886.68,652.27"/>
-        <lane id="145876507_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="22.35" length="175.38" shape="938.95,491.80 937.52,498.59 937.04,519.62 937.17,538.29 936.34,552.70 935.11,564.19 933.62,572.46 930.57,582.03 927.04,592.91 922.71,603.71 916.70,613.67 909.11,625.24 900.61,635.88 888.21,647.43 884.92,649.59"/>
+    <edge id="145876507" from="1592003797" to="J4" priority="9" type="highway.motorway_link" spreadType="center" shape="941.00,489.80 939.12,498.77 938.66,518.94">
+        <lane id="145876507_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="22.35" length="21.39" shape="940.19,493.67 939.12,498.77 938.75,514.94"/>
         <param key="ref" value="M60"/>
     </edge>
     <edge id="145876507-AddedOffRampEdge" from="145876507-AddedOffRampNode" to="20922412" priority="9" type="highway.motorway_link" spreadType="center" shape="884.22,655.80 878.56,659.54 866.45,666.96 852.02,674.25 838.22,679.71 822.65,683.70 809.67,686.15 789.46,688.01">
@@ -480,17 +481,21 @@
         <lane id="145876507-AddedOffRampEdge_3" index="3" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="22.35" length="96.02" shape="878.24,654.00 875.98,655.49 864.11,662.76 850.05,669.87 836.74,675.14 821.61,679.01 809.00,681.39 790.57,683.09"/>
         <param key="ref" value="M60"/>
     </edge>
+    <edge id="145876507.29" from="J4" to="145876507-AddedOffRampNode" priority="9" type="highway.motorway_link" spreadType="center" shape="938.66,518.94 938.64,519.63 938.77,538.33 937.94,552.83 936.69,564.42 935.18,572.85 932.09,582.52 928.55,593.45 924.15,604.43 918.05,614.52 910.41,626.18 901.79,636.97 889.20,648.69 882.46,653.13">
+        <lane id="145876507.29_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="22.35" length="144.42" shape="940.26,522.97 940.37,538.37 939.54,552.96 938.27,564.65 936.74,573.24 933.61,583.01 930.06,593.99 925.59,605.15 919.40,615.37 911.71,627.12 902.97,638.06 890.19,649.95 886.68,652.27"/>
+        <lane id="145876507.29_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="22.35" length="144.42" shape="937.06,522.90 937.17,538.29 936.34,552.70 935.11,564.19 933.62,572.46 930.57,582.03 927.04,592.91 922.71,603.71 916.70,613.67 909.11,625.24 900.61,635.88 888.21,647.43 884.92,649.59"/>
+        <param key="ref" value="M60"/>
+    </edge>
     <edge id="146417963" from="1596923514" to="146417963-AddedOffRampNode" priority="14" type="highway.motorway" spreadType="center" shape="990.55,0.00 983.69,29.89 980.53,43.65 974.85,70.89 969.81,97.06 964.08,129.10 958.47,167.21 955.12,193.39 951.39,229.03 946.57,282.64 944.16,327.44 943.94,391.97">
-        <lane id="146417963_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="398.32" shape="995.13,-5.65 986.81,30.61 983.66,44.33 977.99,71.52 972.96,97.64 967.24,129.61 961.64,167.65 958.30,193.76 954.58,229.34 949.76,282.87 947.36,327.53 947.15,387.99"/>
-        <lane id="146417963_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="398.32" shape="992.01,-6.37 983.69,29.89 980.53,43.65 974.85,70.89 969.81,97.06 964.08,129.10 958.47,167.21 955.12,193.39 951.39,229.03 946.57,282.64 944.16,327.44 943.95,387.97"/>
-        <lane id="146417963_2" index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="398.32" shape="988.89,-7.08 980.57,29.17 977.40,42.97 971.71,70.26 966.66,96.48 960.92,128.59 955.30,166.77 951.94,193.02 948.20,228.72 943.38,282.41 940.96,327.35 940.75,387.96"/>
+        <lane id="146417963_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="402.17" shape="995.13,-5.65 986.81,30.61 983.66,44.33 977.99,71.52 972.96,97.64 967.24,129.61 961.64,167.65 958.30,193.76 954.58,229.34 949.76,282.87 947.36,327.53 947.14,391.84"/>
+        <lane id="146417963_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="402.17" shape="992.01,-6.37 983.69,29.89 980.53,43.65 974.85,70.89 969.81,97.06 964.08,129.10 958.47,167.21 955.12,193.39 951.39,229.03 946.57,282.64 944.16,327.44 943.94,391.82"/>
+        <lane id="146417963_2" index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="402.17" shape="988.89,-7.08 980.57,29.17 977.40,42.97 971.71,70.26 966.66,96.48 960.92,128.59 955.30,166.77 951.94,193.02 948.20,228.72 943.38,282.41 940.96,327.35 940.74,391.81"/>
         <param key="ref" value="M60"/>
     </edge>
     <edge id="146417963-AddedOffRampEdge" from="146417963-AddedOffRampNode" to="1592003797" priority="14" type="highway.motorway" spreadType="center" shape="943.94,391.97 944.11,408.27 944.78,440.10 944.20,489.74">
-        <lane id="146417963-AddedOffRampEdge_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="92.08" shape="948.78,395.91 948.91,408.19 949.58,440.08 949.02,488.09"/>
-        <lane id="146417963-AddedOffRampEdge_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="92.08" shape="945.58,395.95 945.71,408.24 946.38,440.09 945.82,488.05"/>
-        <lane id="146417963-AddedOffRampEdge_2" index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="92.08" shape="942.38,395.98 942.51,408.30 943.18,440.11 942.62,488.01"/>
-        <lane id="146417963-AddedOffRampEdge_3" index="3" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="92.08" shape="939.18,396.02 939.31,408.35 939.98,440.12 939.42,487.97"/>
+        <lane id="146417963-AddedOffRampEdge_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="96.08" shape="947.14,392.08 947.31,408.22 947.98,440.09 947.42,488.22"/>
+        <lane id="146417963-AddedOffRampEdge_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="96.08" shape="943.94,392.12 944.11,408.27 944.78,440.10 944.22,488.19"/>
+        <lane id="146417963-AddedOffRampEdge_2" index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="96.08" shape="940.74,392.15 940.91,408.32 941.58,440.11 941.02,488.15"/>
         <param key="ref" value="M60"/>
     </edge>
     <edge id="146417967" from="20938580" to="1596923580" priority="9" type="highway.motorway_link" spreadType="center" shape="955.50,661.81 959.30,643.07 962.96,618.88 965.62,590.63 968.52,535.82 969.78,492.41 970.88,468.08 971.53,418.08 971.79,388.69 970.83,359.30">
@@ -511,9 +516,9 @@
         <lane id="146417974#1-AddedOnRampEdge_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="94.43" shape="976.69,533.58 976.37,468.56 976.24,439.15"/>
         <param key="ref" value="M60"/>
     </edge>
-    <edge id="158470844#0" from="1592003797" to="3005116317" priority="14" type="highway.motorway" spreadType="center" shape="947.10,494.10 946.34,534.65 944.76,590.92 943.44,618.20 942.19,638.76 940.19,660.29 937.21,690.10 933.17,725.42 928.87,755.31 923.31,787.05 917.61,817.08 908.54,858.09 898.90,895.22 884.62,945.65 871.49,989.73 855.24,1035.17 847.18,1058.69 842.20,1070.55 837.33,1082.80">
-        <lane id="158470844#0_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="590.61" shape="948.70,494.13 947.94,534.69 946.36,590.98 945.04,618.29 943.79,638.88 941.78,660.44 938.80,690.27 934.76,725.62 930.45,755.56 924.88,787.34 919.18,817.40 910.10,858.46 900.44,895.64 886.16,946.10 873.01,990.23 856.75,1035.70 848.68,1059.26 843.68,1071.16 843.32,1072.05"/>
-        <lane id="158470844#0_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="590.61" shape="945.50,494.07 944.74,534.61 943.16,590.86 941.84,618.11 940.59,638.64 938.60,660.14 935.62,689.93 931.58,725.22 927.29,755.06 921.74,786.76 916.04,816.76 906.98,857.72 897.36,894.80 883.08,945.20 869.97,989.23 853.73,1034.64 845.68,1058.12 840.72,1069.94 840.35,1070.87"/>
+    <edge id="158470844#0" from="1592003797" to="3005116317" priority="14" type="highway.motorway" spreadType="center" shape="945.30,493.91 946.34,534.65 944.76,590.92 943.44,618.20 942.19,638.76 940.19,660.29 937.21,690.10 933.17,725.42 928.87,755.31 923.31,787.05 917.61,817.08 908.54,858.09 898.90,895.22 884.62,945.65 871.49,989.73 855.24,1035.17 847.18,1058.69 842.20,1070.55 836.42,1082.48">
+        <lane id="158470844#0_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="600.93" shape="946.90,493.87 947.94,534.65 946.36,590.98 945.04,618.29 943.79,638.88 941.78,660.44 938.80,690.27 934.76,725.62 930.45,755.56 924.88,787.34 919.18,817.40 910.10,858.46 900.44,895.64 886.16,946.10 873.01,990.23 856.75,1035.70 848.68,1059.26 843.66,1071.21 838.80,1081.24"/>
+        <lane id="158470844#0_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="600.93" shape="943.70,493.95 944.74,534.65 943.16,590.86 941.84,618.11 940.59,638.64 938.60,660.14 935.62,689.93 931.58,725.22 927.29,755.06 921.74,786.76 916.04,816.76 906.98,857.72 897.36,894.80 883.08,945.20 869.97,989.23 853.73,1034.64 845.68,1058.12 840.74,1069.89 835.92,1079.85"/>
         <param key="ref" value="M60"/>
     </edge>
     <edge id="158470844#1" from="158470844#1-AddedOnRampNode" to="1591847283" priority="14" type="highway.motorway" spreadType="center" shape="782.74,1189.82 779.87,1195.61 759.65,1232.96 741.26,1265.76">
@@ -522,10 +527,10 @@
         <lane id="158470844#1_2" index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="84.27" shape="779.79,1188.56 777.03,1194.14 756.85,1231.42 739.48,1262.38"/>
         <param key="ref" value="M60"/>
     </edge>
-    <edge id="158470844#1-AddedOnRampEdge" from="3005116317" to="158470844#1-AddedOnRampNode" priority="14" type="highway.motorway" spreadType="center" shape="837.33,1082.80 823.59,1111.60 804.56,1149.41 782.74,1189.82">
-        <lane id="158470844#1-AddedOnRampEdge_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="119.45" acceleration="1" shape="839.99,1084.66 826.46,1113.01 807.40,1150.89 785.64,1191.18"/>
-        <lane id="158470844#1-AddedOnRampEdge_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="119.45" acceleration="1" shape="837.10,1083.28 823.59,1111.60 804.56,1149.41 782.83,1189.66"/>
-        <lane id="158470844#1-AddedOnRampEdge_2" index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="119.45" acceleration="1" shape="834.21,1081.90 820.72,1110.19 801.72,1147.93 780.01,1188.14"/>
+    <edge id="158470844#1-AddedOnRampEdge" from="3005116317" to="158470844#1-AddedOnRampNode" priority="14" type="highway.motorway" spreadType="center" shape="836.42,1082.48 834.56,1083.44 823.59,1111.60 804.56,1149.41 782.74,1189.82">
+        <lane id="158470844#1-AddedOnRampEdge_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="112.99" acceleration="1" shape="834.74,1091.80 826.52,1112.90 807.40,1150.89 785.64,1191.18"/>
+        <lane id="158470844#1-AddedOnRampEdge_1" index="1" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="112.99" acceleration="1" shape="832.64,1088.38 823.59,1111.60 804.56,1149.41 782.83,1189.66"/>
+        <lane id="158470844#1-AddedOnRampEdge_2" index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="31.29" length="112.99" acceleration="1" shape="830.53,1084.97 820.66,1110.30 801.72,1147.93 780.01,1188.14"/>
         <param key="ref" value="M60"/>
     </edge>
     <edge id="166118925" from="1591971755" to="3005116315" priority="9" type="highway.motorway_link" spreadType="center" shape="865.18,1152.71 910.13,1129.64 945.52,1107.46 976.01,1087.86 1001.62,1070.49 1010.24,1062.46 1018.45,1054.14 1026.52,1044.98 1034.32,1034.56 1039.17,1025.51 1043.46,1016.44 1052.64,992.60 1055.13,985.03 1056.37,979.11 1057.92,971.70 1058.78,964.39 1059.28,952.22 1058.96,943.82 1058.25,934.41 1057.13,926.19 1055.23,916.48 1053.41,909.35 1052.30,902.13 1047.69,890.73 1043.07,880.93 1039.82,875.24 1038.29,872.57 1032.63,862.96 1022.13,850.04 1016.24,843.50 1009.22,837.13 999.74,829.54 991.72,824.07 984.69,819.36 977.10,815.28 969.14,811.62 963.72,809.52 957.30,807.35 950.42,805.47 943.27,803.72 936.43,802.47 930.06,801.63 923.74,801.08 915.27,800.71 902.70,800.76 869.43,803.30 854.65,804.65 841.63,805.76 826.90,806.63 812.53,806.94 800.29,806.71 788.32,805.75 771.42,803.46 746.47,798.50 727.15,790.85 710.91,784.80 682.09,770.70 663.23,761.66 625.13,743.41 617.88,739.55 507.02,681.83">
@@ -657,7 +662,7 @@
         <lane id="E14_0" index="0" speed="32.00" length="42.60" shape="1021.62,-88.12 1008.99,-47.43"/>
     </edge>
     <edge id="E15" from="J3" to="J15" priority="-1" shape="744.52,1241.79 710.68,1286.56 698.39,1307.01">
-        <lane id="E15_0" index="0" speed="32.00" length="56.85" shape="730.68,1262.76 712.01,1287.46 698.67,1309.65"/>
+        <lane id="E15_0" index="0" speed="32.00" length="56.83" shape="730.68,1262.76 712.01,1287.46 698.68,1309.63"/>
     </edge>
     <edge id="E2" from="J2" to="1596923514" priority="-1">
         <lane id="E2_0" index="0" speed="32.00" length="0.62" shape="998.34,-13.70 998.09,-13.14"/>
@@ -706,17 +711,16 @@
         <request index="1" response="000" foes="000" cont="0"/>
         <request index="2" response="000" foes="000" cont="0"/>
     </junction>
-    <junction id="145876507-AddedOffRampNode" type="priority" x="882.46" y="653.13" incLanes="145876507_0 145876507_1" intLanes=":145876507-AddedOffRampNode_0_0 :145876507-AddedOffRampNode_0_1 :145876507-AddedOffRampNode_0_2 :145876507-AddedOffRampNode_0_3" shape="887.56,653.60 884.04,648.26 877.36,652.66 884.41,663.34 885.83,661.84 886.18,660.19 885.79,656.75 886.14,655.11">
+    <junction id="145876507-AddedOffRampNode" type="priority" x="882.46" y="653.13" incLanes="145876507.29_0 145876507.29_1" intLanes=":145876507-AddedOffRampNode_0_0 :145876507-AddedOffRampNode_0_1 :145876507-AddedOffRampNode_0_2 :145876507-AddedOffRampNode_0_3" shape="887.56,653.60 884.04,648.26 877.36,652.66 884.41,663.34 885.83,661.84 886.18,660.19 885.79,656.75 886.14,655.11">
         <request index="0" response="0000" foes="0000" cont="0"/>
         <request index="1" response="0000" foes="0000" cont="0"/>
         <request index="2" response="0000" foes="0000" cont="0"/>
         <request index="3" response="0000" foes="0000" cont="0"/>
     </junction>
-    <junction id="146417963-AddedOffRampNode" type="priority" x="943.94" y="391.97" incLanes="146417963_0 146417963_1 146417963_2" intLanes=":146417963-AddedOffRampNode_0_0 :146417963-AddedOffRampNode_0_1 :146417963-AddedOffRampNode_0_2 :146417963-AddedOffRampNode_0_3" shape="937.58,396.03 950.38,395.90 949.94,392.95 949.55,391.94 949.16,390.94 948.87,389.70 948.75,387.99 939.15,387.96 938.73,390.97 938.35,392.00 937.97,393.02 937.68,394.29">
-        <request index="0" response="0000" foes="0000" cont="0"/>
-        <request index="1" response="0000" foes="0000" cont="0"/>
-        <request index="2" response="0000" foes="0000" cont="0"/>
-        <request index="3" response="0000" foes="0000" cont="0"/>
+    <junction id="146417963-AddedOffRampNode" type="priority" x="943.94" y="391.97" incLanes="146417963_0 146417963_1 146417963_2" intLanes=":146417963-AddedOffRampNode_0_0 :146417963-AddedOffRampNode_0_1 :146417963-AddedOffRampNode_0_2" shape="939.14,392.17 948.74,392.07 948.74,391.84 939.14,391.81">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
     </junction>
     <junction id="146417974#1-AddedOnRampNode" type="priority" x="976.22" y="435.15" incLanes="146417974#1-AddedOnRampEdge_0 146417974#1-AddedOnRampEdge_1" intLanes=":146417974#1-AddedOnRampNode_0_0" shape="971.44,439.17 977.84,439.14 977.80,431.14 974.60,431.16 973.79,434.19 972.25,436.14 971.67,437.38">
         <request index="0" response="0" foes="0" cont="0"/>
@@ -762,11 +766,10 @@
         <request index="2" response="0000" foes="0000" cont="0"/>
         <request index="3" response="0000" foes="0000" cont="0"/>
     </junction>
-    <junction id="1592003797" type="priority" x="941.00" y="489.80" incLanes="146417963-AddedOffRampEdge_0 146417963-AddedOffRampEdge_1 146417963-AddedOffRampEdge_2 146417963-AddedOffRampEdge_3" intLanes=":1592003797_0_0 :1592003797_0_1 :1592003797_2_0 :1592003797_2_1" shape="950.62,488.10 937.82,487.95 937.78,489.27 937.73,489.73 937.65,490.18 937.54,490.73 937.38,491.47 943.64,492.79 943.81,492.27 943.86,492.36 943.89,492.69 943.91,493.25 943.90,494.04 950.30,494.16">
-        <request index="0" response="0000" foes="0000" cont="0"/>
-        <request index="1" response="0000" foes="0000" cont="0"/>
-        <request index="2" response="0000" foes="0000" cont="0"/>
-        <request index="3" response="0000" foes="0000" cont="0"/>
+    <junction id="1592003797" type="priority" x="941.00" y="489.80" incLanes="146417963-AddedOffRampEdge_0 146417963-AddedOffRampEdge_1 146417963-AddedOffRampEdge_2" intLanes=":1592003797_0_0 :1592003797_0_1 :1592003797_2_0" shape="942.10,494.02 948.50,493.86 948.59,491.78 948.72,491.05 948.85,490.33 948.96,489.44 949.02,488.24 939.42,488.13 939.32,490.08 939.21,490.75 939.06,491.43 938.87,492.24 938.62,493.34 941.76,493.99">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
     </junction>
     <junction id="1592003809" type="priority" x="201.74" y="508.64" incLanes="3993176_0 3993176_1 3993176_2 166118952_0 166118952_1" intLanes=":1592003809_0_0 :1592003809_0_1 :1592003809_0_2 :1592003809_3_0 :1592003809_3_1" shape="269.17,554.50 273.48,545.91 276.05,540.00 205.16,503.23 196.82,516.89">
         <request index="0" response="00000" foes="00000" cont="0"/>
@@ -830,7 +833,7 @@
         <request index="2" response="0000" foes="0000" cont="0"/>
         <request index="3" response="0000" foes="0000" cont="0"/>
     </junction>
-    <junction id="3005116317" type="zipper" x="837.33" y="1082.80" incLanes="158470844#0_0 158470844#0_1 145876499_0" intLanes=":3005116317_0_0 :3005116317_0_1 :3005116317_2_0" shape="844.81,1072.64 838.86,1070.28 838.60,1070.20 835.46,1069.58 835.04,1072.10 834.82,1074.00 834.64,1075.57 834.35,1077.10 833.78,1078.89 832.77,1081.21 841.43,1085.35 842.50,1082.77 843.03,1080.78 843.27,1079.06 843.48,1077.33 843.91,1075.29">
+    <junction id="3005116317" type="zipper" x="836.42" y="1082.48" incLanes="158470844#0_0 158470844#0_1 145876499_0" intLanes=":3005116317_0_0 :3005116317_0_1 :3005116317_2_0" shape="840.24,1081.94 834.48,1079.15 834.23,1079.05 831.16,1078.13 829.48,1083.26 835.79,1093.51">
         <request index="0" response="000" foes="000" cont="0"/>
         <request index="1" response="000" foes="000" cont="0"/>
         <request index="2" response="000" foes="000" cont="0"/>
@@ -914,7 +917,7 @@
     <junction id="J11" type="dead_end" x="1002.08" y="-90.69" incLanes="" intLanes="" shape="1002.08,-90.69 1005.26,-90.31"/>
     <junction id="J12" type="dead_end" x="1012.53" y="-89.47" incLanes="" intLanes="" shape="1012.53,-89.47 1015.67,-88.83"/>
     <junction id="J13" type="dead_end" x="1020.09" y="-88.59" incLanes="" intLanes="" shape="1020.09,-88.59 1023.15,-87.64"/>
-    <junction id="J15" type="zipper" x="699.02" y="1321.48" incLanes="145852821_0 145852821_1 145852821_2 145852821_3 E15_0" intLanes=":J15_0_0 :J15_0_1 :J15_0_2 :J15_0_3 :J15_4_0" shape="710.32,1316.64 697.30,1308.82 696.33,1311.46 696.25,1312.51 696.15,1313.54 695.81,1314.69 695.01,1316.08 705.44,1323.49">
+    <junction id="J15" type="zipper" x="699.02" y="1321.48" incLanes="145852821_0 145852821_1 145852821_2 145852821_3 E15_0" intLanes=":J15_0_0 :J15_0_1 :J15_0_2 :J15_0_3 :J15_4_0" shape="710.32,1316.63 697.31,1308.81 696.32,1311.46 696.24,1312.51 696.13,1313.54 695.79,1314.70 694.99,1316.09 705.45,1323.47">
         <request index="0" response="00000" foes="00000" cont="0"/>
         <request index="1" response="00000" foes="00000" cont="0"/>
         <request index="2" response="00000" foes="00000" cont="0"/>
@@ -926,6 +929,10 @@
         <request index="1" response="01" foes="01" cont="0"/>
     </junction>
     <junction id="J3" type="zipper" x="744.52" y="1241.79" incLanes="296702213_0 296702213_1" intLanes=":J3_0_0 :J3_1_0" shape="744.55,1248.27 738.97,1245.14 737.03,1248.75 735.69,1251.48 734.60,1253.74 733.41,1255.93 731.79,1258.48 729.40,1261.79 731.95,1263.72 733.27,1261.99 734.30,1260.65 735.05,1259.71 735.52,1259.16 735.70,1259.00 735.60,1259.24 738.73,1260.20">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="J4" type="priority" x="938.66" y="518.94" incLanes="145876507_0" intLanes=":J4_0_0 :J4_0_1" shape="940.35,514.97 937.15,514.90 936.66,517.87 936.26,518.88 935.87,519.89 935.57,521.14 935.46,522.86 941.86,523.01 941.44,520.02 941.06,518.99 940.69,517.97 940.43,516.71">
         <request index="0" response="00" foes="00" cont="0"/>
         <request index="1" response="00" foes="00" cont="0"/>
     </junction>
@@ -989,26 +996,26 @@
     <connection from="145876495" to="3993176-AddedOnRampEdge" fromLane="1" toLane="1" via=":3005116315_0_1" dir="s" state="M"/>
     <connection from="145876496" to="611356040" fromLane="0" toLane="0" via=":5788394993_0_0" dir="s" state="M"/>
     <connection from="145876496" to="611356040" fromLane="0" toLane="1" via=":5788394993_0_1" dir="s" state="M"/>
-    <connection from="145876499" to="158470844#1-AddedOnRampEdge" fromLane="0" toLane="2" via=":3005116317_2_0" dir="s" state="M"/>
+    <connection from="145876499" to="158470844#1-AddedOnRampEdge" fromLane="0" toLane="2" via=":3005116317_2_0" dir="l" state="M"/>
     <connection from="145876501" to="146417974#1-AddedOnRampEdge" fromLane="0" toLane="1" via=":298553553_0_0" dir="s" state="M"/>
     <connection from="145876504" to="1050880328-AddedOnRampEdge" fromLane="0" toLane="2" via=":323814_0_0" dir="s" state="M"/>
     <connection from="145876504" to="1050880328-AddedOnRampEdge" fromLane="1" toLane="3" via=":323814_0_1" dir="s" state="M"/>
-    <connection from="145876507" to="145876507-AddedOffRampEdge" fromLane="0" toLane="0" via=":145876507-AddedOffRampNode_0_0" dir="s" state="M"/>
-    <connection from="145876507" to="145876507-AddedOffRampEdge" fromLane="0" toLane="1" via=":145876507-AddedOffRampNode_0_1" dir="s" state="M"/>
-    <connection from="145876507" to="145876507-AddedOffRampEdge" fromLane="0" toLane="2" via=":145876507-AddedOffRampNode_0_2" dir="s" state="M"/>
-    <connection from="145876507" to="145876507-AddedOffRampEdge" fromLane="1" toLane="3" via=":145876507-AddedOffRampNode_0_3" dir="s" state="M"/>
+    <connection from="145876507" to="145876507.29" fromLane="0" toLane="0" via=":J4_0_0" dir="s" state="M"/>
+    <connection from="145876507" to="145876507.29" fromLane="0" toLane="1" via=":J4_0_1" dir="s" state="M"/>
     <connection from="145876507-AddedOffRampEdge" to="145876504" fromLane="0" toLane="0" via=":20922412_0_0" dir="s" state="M"/>
     <connection from="145876507-AddedOffRampEdge" to="145876504" fromLane="1" toLane="1" via=":20922412_0_1" dir="s" state="M"/>
     <connection from="145876507-AddedOffRampEdge" to="166118952" fromLane="2" toLane="0" via=":20922412_2_0" dir="s" state="M"/>
     <connection from="145876507-AddedOffRampEdge" to="166118952" fromLane="3" toLane="1" via=":20922412_2_1" dir="s" state="M"/>
+    <connection from="145876507.29" to="145876507-AddedOffRampEdge" fromLane="0" toLane="0" via=":145876507-AddedOffRampNode_0_0" dir="s" state="M"/>
+    <connection from="145876507.29" to="145876507-AddedOffRampEdge" fromLane="0" toLane="1" via=":145876507-AddedOffRampNode_0_1" dir="s" state="M"/>
+    <connection from="145876507.29" to="145876507-AddedOffRampEdge" fromLane="1" toLane="2" via=":145876507-AddedOffRampNode_0_2" dir="s" state="M"/>
+    <connection from="145876507.29" to="145876507-AddedOffRampEdge" fromLane="1" toLane="3" via=":145876507-AddedOffRampNode_0_3" dir="s" state="M"/>
     <connection from="146417963" to="146417963-AddedOffRampEdge" fromLane="0" toLane="0" via=":146417963-AddedOffRampNode_0_0" dir="s" state="M"/>
     <connection from="146417963" to="146417963-AddedOffRampEdge" fromLane="1" toLane="1" via=":146417963-AddedOffRampNode_0_1" dir="s" state="M"/>
     <connection from="146417963" to="146417963-AddedOffRampEdge" fromLane="2" toLane="2" via=":146417963-AddedOffRampNode_0_2" dir="s" state="M"/>
-    <connection from="146417963" to="146417963-AddedOffRampEdge" fromLane="2" toLane="3" via=":146417963-AddedOffRampNode_0_3" dir="s" state="M"/>
     <connection from="146417963-AddedOffRampEdge" to="158470844#0" fromLane="0" toLane="0" via=":1592003797_0_0" dir="s" state="M"/>
     <connection from="146417963-AddedOffRampEdge" to="158470844#0" fromLane="1" toLane="1" via=":1592003797_0_1" dir="s" state="M"/>
     <connection from="146417963-AddedOffRampEdge" to="145876507" fromLane="2" toLane="0" via=":1592003797_2_0" dir="L" state="M"/>
-    <connection from="146417963-AddedOffRampEdge" to="145876507" fromLane="3" toLane="1" via=":1592003797_2_1" dir="L" state="M"/>
     <connection from="146417967" to="146417970" fromLane="0" toLane="0" via=":1596923580_0_0" dir="s" state="M"/>
     <connection from="146417974#1" to="146417970" fromLane="0" toLane="1" via=":1596923580_1_0" dir="s" state="M"/>
     <connection from="146417974#1-AddedOnRampEdge" to="146417974#1" fromLane="1" toLane="0" via=":146417974#1-AddedOnRampNode_0_0" dir="s" state="M"/>
@@ -1106,7 +1113,6 @@
     <connection from=":146417963-AddedOffRampNode_0" to="146417963-AddedOffRampEdge" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":146417963-AddedOffRampNode_0" to="146417963-AddedOffRampEdge" fromLane="1" toLane="1" dir="s" state="M"/>
     <connection from=":146417963-AddedOffRampNode_0" to="146417963-AddedOffRampEdge" fromLane="2" toLane="2" dir="s" state="M"/>
-    <connection from=":146417963-AddedOffRampNode_0" to="146417963-AddedOffRampEdge" fromLane="3" toLane="3" dir="s" state="M"/>
     <connection from=":146417974#1-AddedOnRampNode_0" to="146417974#1" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":158470844#1-AddedOnRampNode_0" to="158470844#1" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":158470844#1-AddedOnRampNode_0" to="158470844#1" fromLane="1" toLane="1" dir="s" state="M"/>
@@ -1135,7 +1141,6 @@
     <connection from=":1592003797_0" to="158470844#0" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":1592003797_0" to="158470844#0" fromLane="1" toLane="1" dir="s" state="M"/>
     <connection from=":1592003797_2" to="145876507" fromLane="0" toLane="0" dir="L" state="M"/>
-    <connection from=":1592003797_2" to="145876507" fromLane="1" toLane="1" dir="L" state="M"/>
     <connection from=":1592003809_0" to="230600243-AddedOnRampEdge" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":1592003809_0" to="230600243-AddedOnRampEdge" fromLane="1" toLane="1" dir="s" state="M"/>
     <connection from=":1592003809_0" to="230600243-AddedOnRampEdge" fromLane="2" toLane="2" dir="s" state="M"/>
@@ -1175,7 +1180,7 @@
     <connection from=":3005116315_2" to="3993176-AddedOnRampEdge" fromLane="1" toLane="3" dir="s" state="M"/>
     <connection from=":3005116317_0" to="158470844#1-AddedOnRampEdge" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":3005116317_0" to="158470844#1-AddedOnRampEdge" fromLane="1" toLane="1" dir="s" state="M"/>
-    <connection from=":3005116317_2" to="158470844#1-AddedOnRampEdge" fromLane="0" toLane="2" dir="s" state="M"/>
+    <connection from=":3005116317_2" to="158470844#1-AddedOnRampEdge" fromLane="0" toLane="2" dir="l" state="M"/>
     <connection from=":3005116322_0" to="296702213" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":3005116322_0" to="296702213" fromLane="1" toLane="1" dir="s" state="M"/>
     <connection from=":309760545_0" to="145868728" fromLane="0" toLane="0" dir="s" state="M"/>
@@ -1231,5 +1236,7 @@
     <connection from=":J2_1" to="E2" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":J3_0" to="296702213.417" fromLane="0" toLane="0" dir="R" state="M"/>
     <connection from=":J3_1" to="E15" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J4_0" to="145876507.29" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J4_0" to="145876507.29" fromLane="1" toLane="1" dir="s" state="M"/>
 
 </net>

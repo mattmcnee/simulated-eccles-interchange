@@ -6,6 +6,12 @@ import matplotlib.pyplot as plt
 from collections import defaultdict
 import numpy as np
 
+# 146417963 146417963-AddedOffRampEdge 145876507 145876507-AddedOffRampEdge
+# 166118952 230600243-AddedOnRampEdge 230600243
+
+
+# 145876504 1050880328-AddedOnRampEdge 1050880328 145868725-AddedOnRampEdge 145868725
+
 def generate_random_vehicles(output_file, num_vehicles, duration=100):
     # Dictionary of routes with start node options and density attribute
     routes = {
@@ -25,7 +31,23 @@ def generate_random_vehicles(output_file, num_vehicles, duration=100):
                 "158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 "
                 "145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"
             ),
-            "density": 2
+            "density": 1.4
+        },
+        "m60-m62": {
+            "start_nodes": ["E9 E1", "E10 E1", "E11 E0", "E12 E0", "E13 E2", "E14 E2"],
+            "route": (
+                "146417963 146417963-AddedOffRampEdge 145876507 145876507.29 145876507-AddedOffRampEdge "
+                "166118952 230600243-AddedOnRampEdge 230600243"
+            ),
+            "density": 0.2
+        },
+        "m60-m602": {
+            "start_nodes": ["E9 E1", "E10 E1", "E11 E0", "E12 E0", "E13 E2", "E14 E2"],
+            "route": (
+                "146417963 146417963-AddedOffRampEdge 145876507 145876507.29 145876507-AddedOffRampEdge "
+                "145876504 1050880328-AddedOnRampEdge 1050880328 145868725-AddedOnRampEdge 145868725"
+            ),
+            "density": 0.2
         },
         "m60-worsley": {
             "start_nodes": ["E9 E1", "E10 E1", "E11 E0", "E12 E0", "E13 E2", "E14 E2"],
