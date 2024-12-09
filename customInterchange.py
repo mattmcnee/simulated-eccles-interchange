@@ -8,7 +8,7 @@ def generate_random_vehicles(output_file, num_vehicles, duration = 100):
             "start_nodes": ["E3", "E4", "E5"],
             "route": (
                 "145868728 145876496 611356040 145876499 "
-                "158470844#1-AddedOnRampEdge 158470844#1 145852821 "
+                "158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 "
                 "145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"
             ),
             "density": 1
@@ -17,7 +17,7 @@ def generate_random_vehicles(output_file, num_vehicles, duration = 100):
             "start_nodes": ["E9 E1", "E10 E1", "E11 E0", "E12 E0", "E13 E2", "E14 E2"],
             "route": (
                 "146417963 146417963-AddedOffRampEdge 158470844#0 "
-                "158470844#1-AddedOnRampEdge 158470844#1 145852821 "
+                "158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 "
                 "145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"
             ),
             "density": 2
@@ -26,18 +26,26 @@ def generate_random_vehicles(output_file, num_vehicles, duration = 100):
             "start_nodes": ["E9 E1", "E10 E1", "E11 E0", "E12 E0", "E13 E2", "E14 E2"],
             "route": (
                 "146417963 146417963-AddedOffRampEdge 158470844#0 "
-                "158470844#1-AddedOnRampEdge 158470844#1 145852821 "
+                "158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 "
                 "145852815 145852815-AddedOffRampEdge 145852856"
             ),
             "density": 0.5
         },
-        "m62-m60": {
+        "m62-m60-a": {
             "start_nodes": ["E6", "E7", "E8"],
             "route": (
-                "46372495 111538044 296702213 145852821 145852815 "
-                "145852815-AddedOffRampEdge 1066957350 145852800#1"
+                "46372495 111538044 296702213 296702213.417 145852821 145852821.67 "
+                "145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"
             ),
-            "density": 1
+            "density": 0.5
+        },
+        "m62-m60-b": {
+            "start_nodes": ["E6", "E7", "E8"],
+            "route": (
+                "46372495 111538044 296702213 E15 145852821.67 "
+                "145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"
+            ),
+            "density": 0.5
         },
     }
 
