@@ -11,7 +11,7 @@ python "C:\Program Files (x86)\Eclipse\Sumo\tools\randomTrips.py" -n "merge.net.
 netconvert --osm-files map3.osm --output-file motorway.net.xml --geometry.remove --ramps.guess --junctions.join --tls.guess-signals --tls.discard-simple --tls.join
 ```
 
-### Fox non-viable routes
+### Fix non-viable routes
 
 ```
 duarouter --net-file merge.net.xml --route-files mergeTraffic.rou.xml --output-file mergeTrafficClean.rou.xml --remove-loops --repair
