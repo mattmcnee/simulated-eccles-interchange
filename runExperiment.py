@@ -31,10 +31,10 @@ def main():
         # Create the configuration file for the simulation
         config_file = create_config_file(num_vehicles, args.net_file, output_dir)
 
-        run_sumo_simulation(config_file)
+        run_sumo_simulation(config_file) 
 
-        plot_results("data/trip_")
-
+    
+    plot_results("data/trip_")
 
 
 if __name__ == '__main__':

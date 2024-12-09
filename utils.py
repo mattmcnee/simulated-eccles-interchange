@@ -136,7 +136,7 @@ def run_sumo_simulation(config_file):
         print(f"Error occurred during simulation with config: {config_file}")
         print(e)
 
-def plot_results(base_path):
+def plot_results(base_path, save_path=None):
     # Create a dictionary to store data for each route and its trip durations per density
     route_data = defaultdict(lambda: defaultdict(lambda: {"durations": [], "density": []}))
 
@@ -191,6 +191,11 @@ def plot_results(base_path):
     plt.legend(title="Routes", fontsize=10, loc="best")
     plt.grid(True)
     plt.tight_layout()
+
+    # Save the plot as a file if a save path is provided
+    if save_path:
+        plt.savefig(save_path)
+        print(f"Plot saved to: {save_path}")
 
     # Show the plot
     plt.show()
