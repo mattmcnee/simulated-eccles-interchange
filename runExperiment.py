@@ -1,6 +1,6 @@
 import os
 import argparse
-from utils import generate_random_vehicles, create_config_file, run_sumo_simulation, plot_results
+from utils import generate_random_vehicles, create_config_file, run_sumo_simulation, plot_results, save_results_to_csv, plot_results_from_csv, plot_difference_from_csv
 
 def main():
     parser = argparse.ArgumentParser(description="Generate random vehicles for simulations")
@@ -33,9 +33,17 @@ def main():
 
         run_sumo_simulation(config_file) 
 
-    
-    plot_results("data/trip_")
+    # of the format: defaultdict(lambda: defaultdict(lambda: {"durations": [], "density": []}))
+    route_data = plot_results("data/trip_")
+
+    csv_filename = f"{args.net_file.split('.')[0]}_results.csv"
+    save_results_to_csv(route_data, csv_filename)
+    print(f"Results saved to {csv_filename}")
+
+
 
 
 if __name__ == '__main__':
-    main()
+    # main()
+
+    plot_difference_from_csv("interchange_results.csv", "interchange-variation-1_results.csv", "imgC.png")

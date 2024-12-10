@@ -5,6 +5,8 @@ import xml.etree.ElementTree as ET
 import matplotlib.pyplot as plt
 from collections import defaultdict
 import numpy as np
+import csv
+import re
 
 # 146417963 146417963-AddedOffRampEdge 145876507 145876507-AddedOffRampEdge
 # 166118952 230600243-AddedOnRampEdge 230600243
@@ -31,24 +33,24 @@ def generate_random_vehicles(output_file, num_vehicles, duration=100):
                 "158470844#1-AddedOnRampEdge 158470844#1 145852821 145852821.67 "
                 "145852815 145852815-AddedOffRampEdge 1066957350 145852800#1"
             ),
-            "density": 1.4
+            "density": 1.8
         },
-        "m60-m62": {
-            "start_nodes": ["E9 E1", "E10 E1", "E11 E0", "E12 E0", "E13 E2", "E14 E2"],
-            "route": (
-                "146417963 146417963-AddedOffRampEdge 145876507 145876507.29 145876507-AddedOffRampEdge "
-                "166118952 230600243-AddedOnRampEdge 230600243"
-            ),
-            "density": 0.2
-        },
-        "m60-m602": {
-            "start_nodes": ["E9 E1", "E10 E1", "E11 E0", "E12 E0", "E13 E2", "E14 E2"],
-            "route": (
-                "146417963 146417963-AddedOffRampEdge 145876507 145876507.29 145876507-AddedOffRampEdge "
-                "145876504 1050880328-AddedOnRampEdge 1050880328 145868725-AddedOnRampEdge 145868725"
-            ),
-            "density": 0.2
-        },
+        # "m60-m62": {
+        #     "start_nodes": ["E9 E1", "E10 E1", "E11 E0", "E12 E0", "E13 E2", "E14 E2"],
+        #     "route": (
+        #         "146417963 146417963-AddedOffRampEdge 145876507 145876507.29 145876507-AddedOffRampEdge "
+        #         "166118952 230600243-AddedOnRampEdge 230600243"
+        #     ),
+        #     "density": 0.1
+        # },
+        # "m60-m602": {
+        #     "start_nodes": ["E9 E1", "E10 E1", "E11 E0", "E12 E0", "E13 E2", "E14 E2"],
+        #     "route": (
+        #         "146417963 146417963-AddedOffRampEdge 145876507 145876507.29 145876507-AddedOffRampEdge "
+        #         "145876504 1050880328-AddedOnRampEdge 1050880328 145868725-AddedOnRampEdge 145868725"
+        #     ),
+        #     "density": 0.1
+        # },
         "m60-worsley": {
             "start_nodes": ["E9 E1", "E10 E1", "E11 E0", "E12 E0", "E13 E2", "E14 E2"],
             "route": (
@@ -221,3 +223,154 @@ def plot_results(base_path, save_path=None):
 
     # Show the plot
     plt.show()
+
+    return route_data
+
+def save_results_to_csv(route_data, output_file):
+    """
+    Saves route data to a CSV file.
+
+    Args:
+        route_data (dict): Data containing trip durations and densities.
+        output_file (str): Path to the CSV file.
+    """
+    with open(output_file, mode='w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        
+        # Write the header
+        writer.writerow(["Route", "Density", "Durations"])
+
+        # Write the data
+        for route, stats in route_data.items():
+            for density, details in stats.items():
+                writer.writerow([
+                    route, 
+                    density, 
+                    ";".join(map(str, details["durations"]))  # Join durations with semicolons
+                ])
+
+
+def plot_results_from_csv(csv_file1, csv_file2, save_path=None):
+    # Create a dictionary to store data with keys including the source
+    route_data = defaultdict(lambda: defaultdict(list))
+
+    def clean_route_name(route):
+        """Remove '-<char>' if it appears at the end of the route name."""
+        return re.sub(r'-[a-zA-Z]$', '', route)
+
+    def process_csv_file(file_path, source):
+        with open(file_path, 'r') as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                route = clean_route_name(row['Route'])
+                density = int(row['Density'])
+                durations = list(map(float, row['Durations'].split(';')))
+                route_data[f"{source} {route}"][density].extend(durations)
+
+    # Process both CSV files with source identifiers
+    process_csv_file(csv_file1, 'Current')
+    process_csv_file(csv_file2, 'Proposed')
+
+    # Calculate the average durations for each route and density
+    avg_durations = defaultdict(list)
+
+    for source_route, densities in route_data.items():
+        for density, durations in sorted(densities.items()):
+            avg_duration = np.mean(durations)
+            avg_durations[source_route].append((density, avg_duration))
+
+    # Plot the data
+    plt.figure(figsize=(12, 8))
+
+    # Loop through each source_route and plot the average duration against density
+    colors = plt.cm.tab10.colors  # Use a colormap for consistent coloring
+    for idx, (source_route, data) in enumerate(avg_durations.items()):
+        density_values, avg_duration_values = zip(*data)
+        plt.plot(density_values, avg_duration_values, label=source_route, color=colors[idx % len(colors)], marker='o')
+
+    # Customize the plot
+    plt.title("Average Trip Duration vs Traffic Density by Source and Route", fontsize=16)
+    plt.xlabel("Traffic Density", fontsize=14)
+    plt.ylabel("Average Trip Duration (seconds)", fontsize=14)
+    plt.legend(title="Source and Routes", fontsize=10, loc="best")
+    plt.grid(True)
+    plt.tight_layout()
+
+    # Save the plot as a file if a save path is provided
+    if save_path:
+        plt.savefig(save_path)
+        print(f"Plot saved to: {save_path}")
+
+    # Show the plot
+    plt.show()
+
+    return route_data
+
+def plot_difference_from_csv(csv_file1, csv_file2, save_path=None):
+    # Create a dictionary to store data with keys including the source
+    route_data = defaultdict(lambda: defaultdict(list))
+
+    def clean_route_name(route):
+        """Remove '-<char>' if it appears at the end of the route name."""
+        return re.sub(r'-[a-zA-Z]$', '', route)
+
+    def process_csv_file(file_path, source):
+        with open(file_path, 'r') as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                route = clean_route_name(row['Route'])
+                density = int(row['Density'])
+                durations = list(map(float, row['Durations'].split(';')))
+                route_data[f"{source} {route}"][density].extend(durations)
+
+    # Process both CSV files with source identifiers
+    process_csv_file(csv_file1, 'Current')
+    process_csv_file(csv_file2, 'Proposed')
+
+    # Calculate the average durations for each route and density
+    avg_durations = defaultdict(lambda: defaultdict(float))
+    for source_route, densities in route_data.items():
+        for density, durations in densities.items():
+            avg_durations[source_route][density] = np.mean(durations)
+
+    # Compute differences between "Proposed" and "Current"
+    route_names = set(clean_route_name(name.split(' ', 1)[1]) for name in avg_durations.keys())
+    differences = defaultdict(list)
+    for route in route_names:
+        current_route = f"Current {route}"
+        proposed_route = f"Proposed {route}"
+        if current_route in avg_durations and proposed_route in avg_durations:
+            for density in avg_durations[current_route]:
+                if density in avg_durations[proposed_route]:
+                    diff = avg_durations[proposed_route][density] - avg_durations[current_route][density]
+                    differences[route].append((density, diff))
+
+    # Plot the differences
+    plt.figure(figsize=(12, 8))
+    colors = plt.cm.tab10.colors  # Use a colormap for consistent coloring
+
+    for idx, (route, data) in enumerate(differences.items()):
+        density_values, diff_values = zip(*sorted(data))
+        plt.plot(density_values, diff_values, label=route, color=colors[idx % len(colors)], marker='o')
+
+    # Customize the plot
+    plt.axhline(0, color='gray', linestyle='--', linewidth=1)  # Add a horizontal line at y=0
+    plt.title("Effect of Proposed Changes on Average Time Required to Navigate Intersection", fontsize=16)
+    plt.xlabel("Traffic Density (Cars / 100 seconds)", fontsize=14)
+    plt.ylabel("Difference in Navigation Time (seconds)", fontsize=14)
+    plt.legend(title="Routes", fontsize=10, loc="best")
+    plt.grid(True)
+    plt.tight_layout()
+
+    # Save the plot as a file if a save path is provided
+    if save_path:
+        plt.savefig(save_path)
+        print(f"Plot saved to: {save_path}")
+
+    # Show the plot
+    plt.show()
+
+# Example usage:
+# plot_difference_from_csv('current_data.csv', 'proposed_data.csv', 'difference_plot.png')
+
+
