@@ -7,6 +7,7 @@ from collections import defaultdict
 import numpy as np
 import csv
 import re
+import pandas as pd
 
 # 146417963 146417963-AddedOffRampEdge 145876507 145876507-AddedOffRampEdge
 # 166118952 230600243-AddedOnRampEdge 230600243
@@ -306,7 +307,104 @@ def plot_results_from_csv(csv_file1, csv_file2, save_path=None):
 
     return route_data
 
+
 def plot_difference_from_csv(csv_file1, csv_file2, save_path=None):
+    # Create a dictionary to store data with keys including the source
+    route_data = defaultdict(lambda: defaultdict(list))
+
+    # Define a mapping for the route keys
+    route_key_mapping = {
+        "m602-m60": "M602 - M60",
+        "m62-m60": "M62 - M60",
+        "m60-worsley": "M60 - J13",
+        "m60-north": "M60 North"
+    }
+
+    def map_route_key(route):
+        """Map route key to its target representation."""
+        return route_key_mapping.get(route, route)  # Default to original if not in mapping
+
+    def clean_route_name(route):
+        """Remove '-<char>' if it appears at the end of the route name."""
+        return re.sub(r'-[a-zA-Z]$', '', route)
+
+    def process_csv_file(file_path, source):
+        with open(file_path, 'r') as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                raw_route = clean_route_name(row['Route'])
+                route = map_route_key(raw_route)
+                density = int(row['Density'])
+                durations = list(map(float, row['Durations'].split(';')))
+                route_data[f"{source} {route}"][density].extend(durations)
+
+    # Process both CSV files with source identifiers
+    process_csv_file(csv_file1, 'Current')
+    process_csv_file(csv_file2, 'Proposed')
+
+    # Calculate the average durations for each route and density
+    avg_durations = defaultdict(lambda: defaultdict(float))
+    for source_route, densities in route_data.items():
+        for density, durations in densities.items():
+            avg_durations[source_route][density] = np.mean(durations)
+
+    # Print table for each route with average durations
+    print(f"{'Route':<25}{'Density':<10}{'Current Avg. Duration':<20}{'Proposed Avg. Duration':<20}")
+    print("="*75)
+    
+    for route in avg_durations:
+        current_route = f"Current {route.split(' ', 1)[1]}"
+        proposed_route = f"Proposed {route.split(' ', 1)[1]}"
+        
+        if current_route in avg_durations and proposed_route in avg_durations:
+            for density in avg_durations[current_route]:
+                current_avg = avg_durations[current_route].get(density, 0)
+                proposed_avg = avg_durations[proposed_route].get(density, 0)
+                print(f"{route:<25}{density:<10}{current_avg:<20.2f}{proposed_avg:<20.2f}")
+
+    # Compute differences between "Proposed" and "Current"
+    route_names = set(clean_route_name(name.split(' ', 1)[1]) for name in avg_durations.keys())
+    differences = defaultdict(list)
+    for route in route_names:
+        current_route = f"Current {route}"
+        proposed_route = f"Proposed {route}"
+        if current_route in avg_durations and proposed_route in avg_durations:
+            for density in avg_durations[current_route]:
+                if density in avg_durations[proposed_route]:
+                    diff = avg_durations[proposed_route][density] - avg_durations[current_route][density]
+                    differences[route].append((density, diff))
+
+    # Plot the differences
+    plt.figure(figsize=(12, 8))
+    colors = plt.cm.tab10.colors  # Use a colormap for consistent coloring
+
+    for idx, (route, data) in enumerate(differences.items()):
+        density_values, diff_values = zip(*sorted(data))
+        plt.plot(density_values, diff_values, label=route, color=colors[idx % len(colors)], marker='o')
+
+    # Customize the plot
+    plt.axhline(0, color='gray', linestyle='--', linewidth=1)  # Add a horizontal line at y=0
+    # plt.title("Effect of Proposal on Average Trip Duration", fontsize=16)
+    plt.xlabel("Traffic Density (Cars / 100 seconds)", fontsize=14)
+    plt.ylabel("Difference in Navigation Time (seconds)", fontsize=14)
+    plt.legend(title="Routes", fontsize=10, loc="best")
+    plt.grid(True)
+    plt.tight_layout()
+
+    # Save the plot as a file if a save path is provided
+    if save_path:
+        plt.savefig(save_path)
+        print(f"Plot saved to: {save_path}")
+
+    # Show the plot
+    plt.show()
+
+
+
+# Example usage:
+# plot_difference_from_csv('current_data.csv', 'proposed_data.csv', 'difference_plot.png')
+
+def plot_table_from_csv(csv_file1, csv_file2):
     # Create a dictionary to store data with keys including the source
     route_data = defaultdict(lambda: defaultdict(list))
 
@@ -333,44 +431,30 @@ def plot_difference_from_csv(csv_file1, csv_file2, save_path=None):
         for density, durations in densities.items():
             avg_durations[source_route][density] = np.mean(durations)
 
-    # Compute differences between "Proposed" and "Current"
-    route_names = set(clean_route_name(name.split(' ', 1)[1]) for name in avg_durations.keys())
-    differences = defaultdict(list)
-    for route in route_names:
-        current_route = f"Current {route}"
-        proposed_route = f"Proposed {route}"
-        if current_route in avg_durations and proposed_route in avg_durations:
-            for density in avg_durations[current_route]:
-                if density in avg_durations[proposed_route]:
-                    diff = avg_durations[proposed_route][density] - avg_durations[current_route][density]
-                    differences[route].append((density, diff))
+    # Prepare data for the table
+    routes = set(clean_route_name(route.split(' ', 1)[1]) for route in avg_durations.keys())
+    densities = list(range(100, 1001, 100))  # Density from 100 to 1000
 
-    # Plot the differences
-    plt.figure(figsize=(12, 8))
-    colors = plt.cm.tab10.colors  # Use a colormap for consistent coloring
+    table_data = []
 
-    for idx, (route, data) in enumerate(differences.items()):
-        density_values, diff_values = zip(*sorted(data))
-        plt.plot(density_values, diff_values, label=route, color=colors[idx % len(colors)], marker='o')
+    for route in routes:
+        row = {'Route': route}
+        for density in densities:
+            current_route = f"Current {route}"
+            proposed_route = f"Proposed {route}"
+            current_avg = avg_durations[current_route].get(density, 0)
+            proposed_avg = avg_durations[proposed_route].get(density, 0)
+            difference = proposed_avg - current_avg
+            row[f"{density} Current"] = f"{current_avg:.2f}"
+            row[f"{density} Proposed"] = f"{proposed_avg:.2f}"
+            row[f"{density} Difference"] = f"{difference:.2f}"
+        table_data.append(row)
 
-    # Customize the plot
-    plt.axhline(0, color='gray', linestyle='--', linewidth=1)  # Add a horizontal line at y=0
-    plt.title("Effect of Proposed Changes on Average Time Required to Navigate Intersection", fontsize=16)
-    plt.xlabel("Traffic Density (Cars / 100 seconds)", fontsize=14)
-    plt.ylabel("Difference in Navigation Time (seconds)", fontsize=14)
-    plt.legend(title="Routes", fontsize=10, loc="best")
-    plt.grid(True)
-    plt.tight_layout()
+    # Convert to DataFrame for better visualization
+    df = pd.DataFrame(table_data)
+    df.set_index('Route', inplace=True)
 
-    # Save the plot as a file if a save path is provided
-    if save_path:
-        plt.savefig(save_path)
-        print(f"Plot saved to: {save_path}")
-
-    # Show the plot
-    plt.show()
-
-# Example usage:
-# plot_difference_from_csv('current_data.csv', 'proposed_data.csv', 'difference_plot.png')
-
-
+    # Return the table as LaTeX formatted string
+    latex_table = df.to_latex(index=True, header=True, column_format='l' + 'r' * (len(df.columns)),
+                              longtable=True)
+    print( latex_table)
