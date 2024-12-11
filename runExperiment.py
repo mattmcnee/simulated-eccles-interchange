@@ -45,7 +45,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-    # plot_difference_from_csv("interchange_results.csv", "interchange-variation-1_results.csv", "imgC.png")
-
-    # plot_table_from_csv("interchange_results.csv", "interchange-variation-1_results.csv")

@@ -9,12 +9,6 @@ import csv
 import re
 import pandas as pd
 
-# 146417963 146417963-AddedOffRampEdge 145876507 145876507-AddedOffRampEdge
-# 166118952 230600243-AddedOnRampEdge 230600243
-
-
-# 145876504 1050880328-AddedOnRampEdge 1050880328 145868725-AddedOnRampEdge 145868725
-
 def generate_random_vehicles(output_file, num_vehicles, duration=100):
     # Dictionary of routes with start node options and density attribute
     routes = {
@@ -97,10 +91,8 @@ def generate_random_vehicles(output_file, num_vehicles, duration=100):
         route = routes[route_key]["route"]
         full_route = f"{start_node} {route}"
         
-        # Generate vehicle ID with route key and index
-        vehicle_id = f"{route_key}_{i}"
-        
-        # Append the vehicle data
+        # Generate vehicle ID with route key and index, and append the vehicle data
+        vehicle_id = f"{route_key}_{i}" 
         vehicles.append((vehicle_id, depart_time, full_route))
 
     # Sort vehicles by departure time
@@ -118,7 +110,6 @@ def generate_random_vehicles(output_file, num_vehicles, duration=100):
 
         file.write('</routes>\n')
 
-# generate_random_vehicles("interchangeTrafficCustom.rou.xml", 1200, 200)
 
 def create_config_file(num_vehicles, net_file, output_dir):
     # Generate the config file path
@@ -399,10 +390,6 @@ def plot_difference_from_csv(csv_file1, csv_file2, save_path=None):
     # Show the plot
     plt.show()
 
-
-
-# Example usage:
-# plot_difference_from_csv('current_data.csv', 'proposed_data.csv', 'difference_plot.png')
 
 def plot_table_from_csv(csv_file1, csv_file2):
     # Create a dictionary to store data with keys including the source
