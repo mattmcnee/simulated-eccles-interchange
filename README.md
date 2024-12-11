@@ -4,7 +4,9 @@ SUMO (Simulation of Urban MObility) coverage of Eccles Interchange in Manchester
 
 This repository explores a lane removal through the interchange on the M60. This has the potential to reduce journey times from the M602 to the M60 by up to 15%.
 
-For more details on how to setup your own simulation, there's a helpful video by Dr. Joanne Skiles on youtube [here](https://www.youtube.com/watch?v=wZycufsTEGU).
+A full report on these findings is available [here](https://github.com/mattmcnee/simulated-eccles-interchange/blob/main/results/Eccles_Interchange.pdf).
+
+For more details on how to setup your own simulation, there's a helpful video by Dr. Joanne Skiles on YouTube [here](https://www.youtube.com/watch?v=wZycufsTEGU).
 
 ## Commands to run the experiment
 
