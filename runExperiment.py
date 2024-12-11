@@ -36,7 +36,7 @@ def main():
     # of the format: defaultdict(lambda: defaultdict(lambda: {"durations": [], "density": []}))
     route_data = plot_results("data/trip_")
 
-    csv_filename = f"{args.net_file.split('.')[0]}_results.csv"
+    csv_filename = f"results/{args.net_file.split('.')[0]}_results.csv"
     save_results_to_csv(route_data, csv_filename)
     print(f"Results saved to {csv_filename}")
 
